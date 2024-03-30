@@ -1,0 +1,49 @@
+"INSPECTOR DONALD CAMPBELL OF NESS"
+"JIG"
+"P. MACLEOD"
+""
+
+&amp; 6_8 	! E_8
+!	gg LAr_8 dg LAl_8 eg LAl_8	dbc C_4 eg B_8
+!	dg Cr_8 Fl_8 eg Fl_8		dbe Er_8 Cl_8 strlg LAl_8
+!	dbha HA_4 'ha			Er_8 Cl_8 strlg Cl_8
+!	gg Fr_8 El_8 strla El_8		gg Fr_8 HAl_8 gg HAl_8 !t
+
+&amp;	LAr_8 dg LAl_8 eg LAl_8		dbc C_4 eg B_8
+!	dg Cr_8 Fl_8 eg Fl_8		dbe Er_8 Cl_8 strlg LAl_8
+!	HAr_8 Cl_8 strlg Cl_8		gg Br_8 dg Cl_8 eg Cl_8
+!	dbe Er_8 Cl_8 strlg LAl_8	brl LA_4 ''!I
+
+&amp;	E_8
+!	dbf F_4 'f			gg Fr_8 El_8 Cl_8
+!	edre E_4 'e			gg Er_8 Cl_8 eg Bl_8
+!	grp C_4 'c			gg Cr_8 eg Bl_8 dg Cl_8
+!	gg LAr_8 dg Cl_8 El_8		gg Fr_8 HAl_8 gg HAl_8 !t
+
+&amp;	hdbf F_4 'f			gg Fr_8 El_8 Cl_8
+!	edre E_4 'e			gg Er_8 Cl_8 eg Bl_8
+!	HAr_8 Cl_8 strlg Cl_8		gg Br_8 dg Cl_8 eg Cl_8
+!	dbe Er_8 Cl_8 strlg LAl_8	brl LA_4 ''!I
+
+&amp;	HA_8
+!	hdbc C_4 'c			dbb B_4 'b
+!	dg Cr_8 Fl_8 eg Fl_8		dbe Er_8 Cl_8 dg LAl_8
+!	dbha HA_4 'ha			hdbf F_4 'f
+!	gg Er_8 HAl_8 gg HAl_8		hdbf Fr_8 El_8 gg Fl_8 !t
+
+
+&amp;	dbc C_4 'c			dbb B_4 'b
+!	dg Cr_8 Fl_8 eg Fl_8		dbe Er_8 Cl_8 dg LAl_8
+!	HAr_8 Cl_8 strlg Cl_8		gg Br_8 dg Cl_8 eg Cl_8
+!	dbe Er_8 Cl_8 strlg LAl_8	brl LA_4 ''!I
+
+&amp;	HA_8
+!	hdbc C_4 'c			gg Cr_8 eg Bl_8 dg Cl_8
+!	edre E_4 'e			gg Er_8 Cl_8 El_8
+!	chedare F_4 'f			gg Fr_8 El_8 Fl_8
+!	HAr_8 Fl_8 gg El_8		gg Fr_8 HAl_8 gg HAl_8 !t
+
+&amp;	hdbc C_4 'c			gg Cr_8 eg Bl_8 dg Cl_8
+!	gg Er_8 Fl_8 dg Fl_8		gg LAr_8 dg Cl_8 El_8
+!	HAr_8 Cl_8 strlg Cl_8		gg Br_8 dg Cl_8 eg Cl_8
+!	dbe Er_8 Cl_8 strlg LAl_8	brl LA_4 ''!I

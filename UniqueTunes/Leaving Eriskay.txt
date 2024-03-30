@@ -1,0 +1,47 @@
+Bagpipe Music Writer Gold:1.0
+
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,62,63,65,67,68,70)
+
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+
+InstrumentMappings,(71,71,46,34,1000,60,70)
+
+GracenoteDurations,(30,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,100,70,0)
+
+TuneFormat,(1,1,F,L,500,500,500,750,L,0,0)
+
+TuneTempo,64
+
+"   Leaving Eriskay",(T,L,0,0,Times New Roman,16,700,255,0,18,0,0,0)
+
+"",(Y,R,0,0,Times New Roman,10,400,255,0,18,0,0,0)
+
+"",(M,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+
+"",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+"Slow Air",(I,L,0,0,Times New Roman,12,400,255,0,18,0,0,0)
+
+&amp;	3_4
+I!''	dbc Cr_8 fermatc El_16 'e		dbc C_8 fermatc 'c			gg LAr_8 fermatla dg Cl_16 'c
+!	gg Er_8 fermate Fl_16 'f			dbe E_8 fermate 'e			gg C_8 fermatc 'c
+!	dbha HAr_8 fermatha Fl_16 'f		dbe E_8 fermate 'e			gg LAr_8 fermatla Fl_16 'f
+!	dbe Er_8 fermate Cl_16 'c		dbb B_8 fermatb 'b			gg LAr_8 fermatla  Bl_16 'b		!t
+
+&amp;	dbc Cr_8 fermatc El_16 'e		dbc C_8 fermatc 'c			gg LAr_8 fermatla dg Cl_16 'c
+!	gg Er_8 fermate Fl_16 'f			dbe E_8 fermate 'e			gg C_8 fermatc 'c
+!	dbha HAr_8 fermatha Fl_16 'f		dbe E_8 fermate 'e			gg LAr_8 fermatla dg Bl_16 'b
+!	dbc Cr_8 fermatc eg Bl_16 'b		strlg LA_4 fermatla 'la 									''!I
+
+&amp;
+I!''	dbha HAr_8 fermatha Fl_16 'f		thrd D_8 fermatd 'd			gg LAr_8 fermatla Dl_16 'd
+!	gg Fr_8 fermatf HAl_16 'ha		dbf F_8 fermate 'f			gg E_8 fermate 'e
+!	dbe Er_8 fermate Cl_16 'c		dbha HA_8 fermatha 'ha		LAr_8 fermatla Fl_16 'f
+!	dbe Er_8 fermate Cl_16 'c		dbb B_8 fermatb 'b			gg LAr_8 fermatla  Bl_16 'b		!t
+
+&amp;	dbc Cr_8 fermatc El_16 'e		dbc C_8 fermatc 'c			gg LAr_8 fermatla dg Cl_16 'c
+!	gg Er_8 fermate Fl_16 'f			dbe E_8 fermate 'e			gg C_8 fermatc 'c
+!	dbha HAr_8 fermatha Fl_16 'f		dbe E_8 fermate 'e			gg LAr_8 fermatla dg Bl_16 'b
+!	dbc Cr_8 fermatc eg Bl_16 'b		strlg LA_4 fermatla 'la 									''!I

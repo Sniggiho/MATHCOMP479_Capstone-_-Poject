@@ -1,0 +1,45 @@
+"The Irish Wedding Song"
+"Waltz - Moderately"
+"Ian Betteridge"
+"Bagpipe arr. I Dewar 2019"
+&amp; 3_4 'intro gg LAr_8 'la dg Bl_16 _'
+I!''	eg LA_2  gg LGr_8 'lg dg Bl_16
+!	eg LA_2 gg Br_8 'b Cl_16
+!	thrd D_4 eg LG_4 dg B_4
+!	strlg LA_2 thrd D_4
+!	dbd D_4 'd C_16 gg B_4
+!	strlg LA_2 thrd Dr_8 'd El_16 
+!	dbd D_4 C_4 D_4
+!	dbe E_2 abr LA_4
+!t
+
+&amp;	gg F_2  stre Fr_8 'f HGl_16 
+!	hdbf F_4 E_4 thrd Dr_8 'd El_16
+!	dbd D_4 LG_4 dg B_4
+!	strlg LA_2 thrd D_4
+!	dbd D_4 'd C_16 gg B_4
+!	strlg LA_4 thrd D_4 dbhg HG_4 
+!	hdbf F_4 gg C_4 'c E_8
+!	'1 thrd D_2 gg LAr_8 'la dg Bl_16 _'  '2 thrd D_2 gg Cr_8 'c Dl_16 _'
+''!I
+
+&amp;
+I!''	dbe E_2 grp Er_8 'e Fl_16
+!	dbe E_4 C_4 E_4
+!	thrd D_4 eg LG_4 dg B_4
+!	strlg LA_2 gg Cr_8 'c Dl_16
+!   dbe E_2 grp Er_8 'e Fl_16   
+!   dbe E_4 C_4 E_4
+!   thrd D_4 gg C_4 D_4
+!   dbe E_2 abr LA_4
+!t
+
+&amp;	gg F_2  stre Fr_8 'f HGl_16 
+!	hdbf F_4 E_4 thrd Dr_8 'd El_16
+!	dbd D_4 LG_4 dg B_4
+!	strlg LA_2 thrd D_4
+!	dbd D_4 'd C_16 gg B_4
+!	strlg LA_4 thrd D_4 dbhg HG_4 
+!	hdbf F_4 gg C_4 'c E_8
+!	'1 thrd D_2 gg Cr_8 'c Dl_16 _'  '2 thrd D_2 'd _'
+''!I

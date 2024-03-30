@@ -1,0 +1,72 @@
+Bagpipe Reader:1.0
+
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+
+InstrumentMappings,(71,71,46,34,1000,25,65)
+
+GracenoteDurations,(60,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,88,80,250)
+
+TuneFormat,(1,0,M,L,500,500,500,500,P,0,0)
+
+TuneTempo,120
+
+"Hurricane Jack",(T,C,0,0,Verdana,12,400,0,0,18,0,0,0)
+
+"Hornpipe",(Y,L,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+"Gilbert MacKay",(M,R,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+"Page 4 of the Boys' Brigade's 'Centenary Collection of Bagpipe Music', 1983",(F,C,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 2_4 	I!'' 	gg LAr_16 'la Dl_32
+!	dbf Fr_8 HAr_16 'ha Fl_32	dbe Er_8 Fr_16 'f El_32
+!	thrd Dr_16 'd Fl_32 gg Er_16 'e Dl_32	dbb Br_8 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha HGr_16 'hg Fl_32
+!	dbe E_4 strla Er_8 gg LAr_16 'la Dl_32	!t
+
+&amp; sharpf sharpc	dbf Fr_8 HAr_16 'ha Fl_32	dbe Er_8 Fr_16 'f El_32
+!	thrd Dr_16 'd Fl_32 gg Er_16 'e Dl_32	dbb Br_8 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha Er_16 'e Fl_32
+!	thrd D_4 lgstd D_8		''!I
+
+&amp; sharpf sharpc I!'' gg LAr_16 'la Dl_32
+!	dbf Fr_8 LAr_16 'la Dl_32	dbhg HGr_8 LAr_16 'la Dl_32
+!	gg Fr_32 HAr_16 'ha Fr_16 'f Dl_32	dbb Br_8 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha HGr_16 'hg Fl_32
+!	dbe E_4 strla Er_8 gg LAr_16 'la Dl_32	!t
+
+&amp; sharpf sharpc	dbf Fr_8 LAr_16 'la Dl_32	dbhg HGr_8 LAr_16 'la Dl_32
+!	gg Fr_32 HAr_16 'ha Fr_16 'f Dl_32	dbb Br_8 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha Er_16 'e Fl_32
+!	thrd D_4 lgstd D_8		''!I
+
+&amp; sharpf sharpc I!'' B_8
+!	gg LAr_16 'la Br_32 gg LAl_32 dg LGl_16 'lg	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32
+!	gg Fr_32 HAr_16 'ha Fr_16 'f Dl_32	gg Er_16 'e Fl_32 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha HGr_16 'hg Fl_32
+!	dbe E_4 strla Er_8 gg Dr_16 'd Bl_32	!t
+
+&amp; sharpf sharpc gg LAr_16 'la Br_32 gg LAl_32 dg LGl_16 'lg	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32
+!	gg Fr_32 HAr_16 'ha Fr_16 'f Dl_32	gg Er_16 'e Fl_32 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha Er_16 'e Fl_32
+!	thrd D_4 lgstd D_8		''!I
+
+&amp; sharpf sharpc I!'' dbhg HG_8
+!	HAr_16 'ha HGl_32 HAr_16 'ha Fl_32	gg Er_16 'e HGl_32 Fr_16 'f El_32
+!	thrd Dr_16 'd Fl_32 gg Er_16 'e Dl_32	gg Br_32 Dr_16 'd gg LGr_16 'lg dg Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha HGr_16 'hg Fl_32
+!	dbe E_4 strla Er_8 dbhg HGl_8	!t
+
+&amp; sharpf sharpc '1 HAr_16 'ha HGl_32 HAr_16 'ha Fl_32	gg Er_16 'e HGl_32 Fr_16 'f El_32
+!	thrd Dr_16 'd Fl_32 gg Er_16 'e Dl_32	gg Br_32 Dr_16 'd gg LGr_16 'lg dg Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha Er_16 'e Fl_32
+!	thrd D_4 lgstd D_8	_'	''!I
+
+&amp; sharpf sharpc '2 hdbf Fr_8 HAr_16 'ha Fl_32	dbe Er_8 Fr_16 'f El_32
+!	thrd Dr_16 'd Fl_32 gg Er_16 'e Dl_32	dbb Br_8 gg Dr_16 'd Bl_32
+!	gg LAr_16 'la Bl_32 gg Dr_16 'd El_32	gg Fr_32 HAr_16 'ha Er_16 'e Fl_32
+!	thrd D_4 lgstd D_8	_'	''!I

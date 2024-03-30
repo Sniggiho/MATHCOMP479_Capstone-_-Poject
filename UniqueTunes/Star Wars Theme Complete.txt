@@ -1,0 +1,77 @@
+Bagpipe Reader:1.0
+
+"Exported from Time Sig Studios Ensemble www.thisisensemble.com"
+
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+
+InstrumentMappings,(71,71,45,33,1000,60,70)
+
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,100,80,250)
+
+TuneFormat,(1,0,M,L,500,500,500,500,P,0,0)
+
+TuneTempo,108
+
+"Arranged: Chris Hampton",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+
+"March",(Y,L,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+
+"STAR WARS",(T,C,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 12_8
+
+I!	dbe E_1  'e 	
+I!''	gg LGr_8  dg LGr_8  eg LGl_8  	gg ^ts LA_4  'la 	LA_4  ^te 'la 	dbe ^ts E_4  'e 	
+!	E_4  ^te 'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbd Dr_8  Cr_8  Dl_8  	dbb ^ts B_4  'b 	B_4  ^te 'b 	
+''!I	
+
+&amp; sharpf sharpc
+
+I!	gg LG_4  	dg LG_8  	eg ^ts B_4  'b 	B_4  ^te 'b 	dbhg HGr_8  'hg Fl_8  'f 	
+!	dbe Er_8  'e Dl_8  'd 	ag Dr_8  'd eg Er_8  Fl_16  	gg Er_8  'e Br_8  'b dg Cr_8  'c eg LAl_8  'la 	
+!	gg ^ts B_4  'b 	B_4  ^te 'b 	dbhg HGr_8  'hg Fl_8  'f 	dbe Er_8  'e Dl_8  'd 	
+!	dbha HA_4  'ha 	E_8  	ag ^ts E_4  'e 	E_4  'e 	E_4  ^te 	
+!t	
+
+&amp; sharpf sharpc
+gg LA_4  	dg LA_8  	eg ^ts B_4  'b 	B_4  ^te 'b 	dbhg HGr_8  'hg Fl_8  'f 	
+!	dbe Er_8  'e Dl_8  'd 	ag Dr_8  'd gg Er_8  Fl_16  	gg Er_8  'e Br_8  'b dg Cr_8  'c eg ^ts LAl_8  'la 	
+!	LA_4  ^te 'la 	strlg LA_4  	gg LAr_8  dbhg HGr_8  'hg Fl_8  'f 	dbe E_4  	LA_8  	
+!	Fr_8  'f El_8  'e 	dbd D_4  	B_8  	dbha HA_4  'ha 	HA_4  'ha 	
+!I	
+
+&amp; sharpf sharpc
+
+I!''	gg LA_4  'la 	tar LA_4  'la 	tar LA_4  'la 	
+!	hvthrd Dr_8  'd Cr_8  Bl_8  'b 	
+!	gg LA_4  'la 	tar LA_4  'la 	tar LA_4  'la 	
+!	hvthrd Dr_8  'd Cr_8  Bl_8  'b 	
+''!I	
+
+&amp; sharpf sharpc
+
+I!	gg ^ts LA_2  'la 	LA_4  ^te 'la 	dbe ^ts E_4  'e 	
+!	E_4  ^te 'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbd Dr_8  Cr_8  Dl_8  	dbb ^ts B_4  'b 	B_4  ^te 'b 	
+!t	
+
+&amp; sharpf sharpc
+gg LGr_8  dg LGr_8  eg LGl_8  	gg ^ts LA_4  'la 	LA_4  ^te 'la 	dbe ^ts E_4  'e 	
+!	E_4  ^te 'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbd Dr_8  Cr_8  Bl_8  	dbha ^ts HA_4  'ha 	HA_4  ^te 'ha 	
+!	hdbe E_4  'e 	dbhg HGr_8  Fr_8  HGl_8  	hdbe ^ts E_4  'e 	E_4  'e 	
+!I	
+
+&amp; sharpf sharpc
+E_2  	strlg LA_4  	grp B_2  'b 	
+!	thrd E_2  'e 	dbe E_2  'e 	
+!	dbha ^ts HA_1  	HA_16  ^te 'ha 	gg LAr_16  'la dg LAr_16  'la eg LAl_16  'la 	strlg LA_8  	
+!I	
+!I

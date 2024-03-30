@@ -1,0 +1,63 @@
+Bagpipe Reader:1.0
+
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+
+InstrumentMappings,(71,71,46,34,1000,60,70)
+
+GracenoteDurations,(40,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,100,80,250)
+
+TuneFormat,(1,0,M,L,500,500,500,500,P,1,0)
+
+TuneTempo,90
+
+"Little Kettle",(F,L,0,0,Times New Roman,12,400,0,0,18,0,0,0)
+"4 4 Song",(Y,L,0,0,Times New Roman,12,400,0,0,18,0,0,0)
+"Sosvan Vach",(T,C,0,0,Times New Roman,18,600,0,1,18,0,0,0)
+"Not Listed",(M,R,0,0,Times New Roman,12,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 4_4
+I!	LA_4
+!	thrd D_4				gg Dr_8 'd cg Dl_16	gg D_4				dg Dr_8 El_8
+!	dbf F_2									D_4					F_4
+!	gg E_4				ag Er_8 'e ag El_16		gg Er_8 HGl_8			Fr_8 El_8
+!	thrd D_2 'd													LAr_8 dg LAl_8
+!t
+
+&amp; sharpf sharpc 
+!	gg Dr_8 eg Dl_8		gg Dr_8 eg Dl_8		gg D_4				eg Dr_8 El_8
+!	dbf F_2									D_4					HA_4
+!	gg HA_4				HGr_8 Fl_8			gg Er_16 HGl_8 'hg		Fr_8 El_8
+!	thrd D_1 
+!t	
+
+&amp; sharpf sharpc 
+!	HA_4				gg HA_4				dbha HA_4 'ha			F_8
+!	tg HGr_8 'hg tg HGl_16	tg HGr_8 tg HGl_8		fg HG_2
+!	F_4 					gg F_4				dbf F_4 'f				D_8
+!	gg Er_8 'e eg El_16		gg Er_8 eg El_8 		ag E_4				HA_4
+!t
+
+&amp; sharpf sharpc 
+!	gg HA_2									fg HG_4			F_4
+!	gg E_8 				HG_4 'hg				F_8				E_4 'e
+!	thrd D_1 
+!	space
+!t
+
+&amp; sharpf sharpc 
+!	dbha HA_2								F_4				HA_4
+!	tg HG_2									fg HG_2
+!	gg F_2									D_4				F_4
+!	dbe E_2									ag E_2
+!t
+
+&amp; sharpf sharpc 
+!	gg D_4				E_4					gg F_4			HG_4
+!	dbha HA_4			B_4					HA_4			HG_4
+!	gg F_8				eg F_4 'f				dbe E_4 'e			ag E_8
+!	D_1 
+!I

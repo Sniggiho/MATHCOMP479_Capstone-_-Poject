@@ -1,0 +1,65 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+InstrumentMappings,(71,71,46,34,1000,60,70)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,75,5,300)
+TuneFormat,(1,0,F,L,500,500,500,500,P,0,0)
+
+TuneTempo,80
+
+"The Ladies' Hornpipe",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Hornpipe",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"DR MacLellan",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"16 Apr 2020",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+
+&amp; sharpf sharpc 2_4	I!'' dbha HA_8
+!	LAr_16 'la Bl_32 gg Dl_16 'd El_32		gg Fr_16 'f El_32 dbd Dl_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	strlg LAr_8 dbd Dr_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	gg LAr_16 'la Dr_32 gg Fl_32 HAl_16 'ha
+!	HGr_16 'hg Fl_32 dbe El_16 'e Dl_32	gg Cr_32 El_16 'e dbha HAl_8	 !t
+&amp; sharpf sharpc	
+	LAr_16 'la Bl_32 gg Dl_16 'd El_32		gg Fr_16 'f El_32 dbd Dl_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	strlg LAr_8 dbd Dr_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg El_32	gg Fr_32 HAl_16 'ha hdbf Fl_16 'f Dl_32
+!	dbe Er_8 Dl_8	gstd  D_8			''!I
+
+&amp; sharpf sharpc 	I!'' dbhg HG_8
+!	tg Fr_16 'f HGl_32 HAl_16 'ha HGl_32	tg Fr_16 'f El_32 dbd Dl_16 'd Cl_32
+!	gg Br_16 'b dg Cl_32 gg Bl_16 'b HGl_32	dbf Fr_16 'f Dl_32 gg LAl_16 'la Dl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	gg LAr_16 'la Dr_32 gg Fl_32 HAl_16 'ha
+!	HGr_16 'hg Fl_32 dbe El_16 'e Dl_32	gg Cr_32 El_16 'e dbha HAl_8	!t
+&amp; sharpf sharpc	
+'1	Fr_16 'f HGl_32 HAl_16 'ha HGl_32		tg Fr_16 'f El_32 dbd Dl_16 'd Cl_32
+!	gg Br_16 'b dg Cl_32 gg Bl_16 'b HGl_32	dbf Fr_16 'f Dl_32 gg LAl_16 'la Dl_32	
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg El_32	gg Fr_32 HAl_16 'ha hdbf Fl_16 'f Dl_32
+!	dbe Er_8 Dl_8	gstd  D_8 _'			!I
+&amp; sharpf sharpc	
+'2	LAr_16 'la Bl_32 gg Dl_16 'd El_32		gg Fr_16 'f El_32 dbd Dl_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	strlg LAr_8 dbd Dr_16 'd Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg El_32	gg Fr_32 HAl_16 'ha hdbf Fl_16 'f Dl_32
+!	dbe Er_8 Dl_8					gstd  D_8 _' 			''!I
+
+&amp; sharpf sharpc 	I!'' dbha HA_8
+!	LAr_16 'la Dl_32 gg Fl_16 'f Dl_32		gg LAr_16 'la El_32 tg HGl_16 'hg El_32
+!	gg Fr_16 'f Dl_32 HAl_16 'ha Fl_32		dbe Er_16 'e Cl_32 HAl_16 'ha Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg Bl_32	gg LAr_16 'la Dr_32 gg Fl_32 HAl_16 'ha
+!	HGr_16 'hg Fl_32 dbe El_16 'e Dl_32	gg Cr_32 El_16 'e  		!t
+&amp; sharpf sharpc '24 dbha HA_8	
+!	LAr_16 'la Dl_32 gg Fl_16 'f Dl_32		gg LAr_16 'la El_32 tg HGl_16 'hg El_32
+!	gg Fr_16 'f Dl_32 HAl_16 'ha Fl_32		dbe Er_16 'e Cl_32 HAl_16 'ha Cl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg El_32	gg Fr_32 HAl_16 'ha hdbf Fl_16 'f Dl_32
+!	dbe Er_8 Dl_8					gstd D_8 _'			''!I
+
+&amp; sharpf sharpc 	I!'' gg Er_32 Fl_32 HGl_16
+!	HAr_16 'ha Dl_32 gg Fl_16 'f HAl_32		HGr_16 'hg El_32 gg Bl_16 'b El_32
+!	tg HGr_16 'hg Bl_32 gg El_16 'e HGl_32	dbf Fr_16 'f Dl_32 gg LAl_16 'la Dl_32
+!	tg HGr_16 'hg Bl_32 gg El_16 'e HGl_32	dbf Fr_16 'f LAl_32 gg Dl_16 'd Fl_32
+!	gg Er_32 Fl_32 El_16 gg Dr_32 Cl_32 Bl_16	gbr LA_8 	!t
+&amp; sharpf sharpc	'1 gg Er_32 Fl_32 HGl_16
+!	HAr_16 'ha Dl_32 gg Fl_16 'f HAl_32		HGr_16 'hg El_32 gg Bl_16 'b El_32
+!	tg HGr_16 'hg Bl_32 gg El_16 'e HGl_32	dbf Fr_16 'f Dl_32 gg LAl_16 'la Dl_32
+!	gg Br_16 'b Dl_32 tg HGl_16 'hg El_32	gg Fr_32 HAl_16 'ha hdbf Fl_16 'f Dl_32
+!	dbe Er_8 Dl_8	gstd D_8 _'			''!I
