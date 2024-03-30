@@ -1,0 +1,37 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+InstrumentMappings,(61,71,46,34,1000,60,70)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+GracenoteDurations,(42,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,75,5,330)
+TuneFormat,(1,0,F,L,500,500,500,500,P,0,0)
+
+TuneTempo,90
+
+"Drunken Sailor",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Hornpipe",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"Trad",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"18 Jan 2016",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 2_4
+I!'' 	dbe Er_8 strla Er_16 strla El_16 	strla Er_8 strla Er_16 strla El_16
+!	strla Er_8 LAl_8			gg Cr_8 El_8
+!	thrd Dr_8 gg Dr_16 eg Dl_16 		strc  Dr_8 gg Dr_16 eg Dl_16
+!	strc Dr_8 LGl_8			gg Br_8 Dl_8				!t
+&amp; sharpf sharpc
+	dbe Er_8 strla Er_16 strla El_16 	strla Er_8 strla Er_16 strla El_16
+!	strla Er_8 Fl_8				dbhg HGr_8 HAl_8
+!	strf  HGr_8 tg El_8			dbd Dr_8 eg Bl_8
+!	gg LA_4				brl  LA_4			''!I
+
+&amp; sharpf sharpc
+I!'' 	dbe E_4				strla Er_8 'e strla El_16
+!	strla Er_8 LAl_8			gg Cr_8 El_8
+!	thrd D_4				gg Dr_8 'e  eg Dl_16 		
+!	strc Dr_8 LGl_8			gg Br_8 Dl_8			!t
+&amp; sharpf sharpc
+	dbe E_4				strla Er_8 'e strla El_16
+!	strla Er_8 Fl_8				dbhg HGr_8 HAl_8
+!	strf  HGr_8 tg El_8			dbd Dr_8 eg Bl_8
+!	gg LA_4				brl  LA_4			''!I

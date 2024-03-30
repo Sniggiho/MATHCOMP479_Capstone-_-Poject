@@ -1,0 +1,37 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+InstrumentMappings,(71,71,46,34,1000,60,70)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+GracenoteDurations,(40,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,75,5,330)
+TuneFormat,(1,0,F,L,500,500,500,550,P,0,0)
+
+TuneTempo,74
+
+"The Green Glens of Antrim",(T,L,0,0,Times New Roman,12,700,0,0,34,0,0,0)
+"12-8 Slow Air",(Y,C,0,0,Times New Roman,12,400,0,0,18,0,0,0)
+"Trad",(M,R,0,0,Times New Roman,11,700,0,0,18,0,0,0)
+"05 Dec 2015",(F,R,0,0,Times New Roman,10,700,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 12_8 gg LAr_8 Dl_8
+I! 	gg F_4 'f 		dbf F_4		E_8		thrd D_4 'd		lgstd D_4 C_8	
+!	gg B_4 'b		thrd D_4 		B_8		gg LA_4 'la		brl LAr_8 gg Fr_8 HGl_8	
+!	dbha HA_4 'ha		strhg HA_4 		HG_8		hdbf F_4 'f		gg E_4 D_8	
+!	lgstd D_4 'd		gg C_4 		D_8		dbe E_2		gg LAr_8 Dl_8			!t
+&amp; sharpf sharpc	
+	gg F_4 'f		dbf F_4 		E_8		thrd D_4 'd		lgstd D_4 C_8	
+!	gg B_4 'b 		thrd D_4 		B_8		gg LA_4 'la		brl LAr_8 gg Fr_8 HGl_8
+!	dbha HA_4 'ha		strhg HA_4 		HG_8 		hdbf F_4 'f		gg LA_4 D_8	
+!	dbc C_4 'c 		thrd D_4 		E_8		thrd D_4 'd		lgstd D_4 C_8			!I
+
+&amp; sharpf sharpc	
+I! 	dbb B_4 'b 		gg B_4 		strlg B_8	gg LG_4 'lg		gg LA_4 dg B_8	
+!	gg LA_4 'la		thrd D_4		 E_8		gg F_4 'f		dbf F_4 HG_8	
+!	dbha HA_4 'ha		strf HG_4 		F_8		dbf F_4 'f		dbe E_4 D_8	
+!	lgstd D_4 'd		gg C_4 		D_8		dbe E_2		gg LAr_8 Dl_8		!t
+&amp; sharpf sharpc	
+	gg F_4 'f		dbf F_4		E_8		thrd D_4 'd		lgstd D_4 C_8	
+!	gg B_4 'b		thrd D_4 		B_8		gg LA_4 'la		brl LAr_8 gg Fr_8 HGl_8	
+! 	dbha HA_4 'ha		strhg HA_4 		HG_8		hdbf F_4 'f		gg LA_4 D_8	
+!	dbc C_4 'c		thrd D_4 		E_8 		thrd D_2			!I

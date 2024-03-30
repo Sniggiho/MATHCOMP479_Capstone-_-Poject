@@ -1,0 +1,53 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+InstrumentMappings,(71,71,45,33,1000,60,70)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,100,10,330)
+TuneFormat,(1,0,M,L,500,500,500,500,P,0,0)
+TuneTempo,84
+
+"Ashokan Farewell",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Slow Air",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"Jay Ungar / arr HD Phillips",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"28 Feb 2020",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 3_4	I!'' 	gg Dr_8 'd Fl_16
+!	tg HG_4 'hg		F_8			gg Er_16 Dl_8 'd
+!	dbb B_2		gg LAr_8 'la Bl_16
+!	gg C_2			gg Cr_16 dg LAl_8 'c
+!	gg LG_4		dg B_4 'b 		gg LA_8		!t
+&amp; sharpf sharpc 
+	'1 gg LG_4		dg B_4			D_4
+!	tg HG_2		Cr_16 dg Bl_8 'b
+!	dg B_4 'b		dg C_8			B_4
+!	gg LA_2 _' 					''!I
+&amp; sharpf sharpc 
+	'2 gg LG_4		dg B_4			D_4
+!	tg HG_2		gg Br_16  dg LGl_8 'la
+!	gg D_4			F_4			dbha HA_4
+!	fg HG_2 _'								!I
+
+&amp; sharpf sharpc 
+I!	gg Dr_8 'd Fl_16
+!	dbd D_4 'd 		B_8			eg LG_4
+!	tg HG_2		D_4
+!	dbe E_2		gg Fr_16 HGl_8 'hg
+!	dbd D_8		 B_4 'b			gg Br_8 'b dg LAl_16	!t
+&amp; sharpf sharpc 
+	dbb B_4 'b		gg LA_8		dg LG_4
+!	gg LG_4 'lg		gg LA_8		B_4
+!	dbb B_4 'b		dg C_8			B_4
+!	gg LA_2		gg Br_8 'b dg LAl_16				!t
+
+&amp; sharpf sharpc 
+	gg LG_4		dg B_4			D_4
+!	tg HG_2		D_4
+!	dbe E_2		gg Fr_16 HGl_8 'hg
+!	dbd D_8		 B_4 'b			gg Br_8 'b dg LAl_16	!t
+&amp; sharpf sharpc 
+	gg LG_4		dg B_4			D_4
+!	tg HG_2		gg Br_16  dg LGl_8 'la
+!	gg D_4			F_4			dbha HA_4
+!	fg HG_2								!I

@@ -1,0 +1,57 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+InstrumentMappings,(71,71,45,33,1000,60,70)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,100,10,330)
+TuneFormat,(1,0,F,L,500,500,500,500,P,0,0)
+
+TuneTempo,50
+
+"Mairi Bhan Og (My Fair Mary)",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Slow Air",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"Trad",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"26 Nov 2018",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 6_8 I!		gg Dr_32 El_16 'e 	
+! 	dbf F_4 			B_8				gg Br_8 'b dg Bl_16 eg Bl_8
+! 	dbc C_4 			gg B_8				tar Br_8 'b Cl_16 Dl_8 	
+! 	gg Er_8 'e Fl_16 El_8 		dbc Cr_8 'c eg Bl_16 dg Cl_8 	
+! 	gg LA_4 'la 			brl LA_4 			dg C_8 	!t 	
+&amp; sharpf sharpc 	
+	gg B_4  			tar B_8  			thrd D_4 			E_8 	
+! 	gg Fr_8 'f HGl_16  Fl_8	dbf F_4			 E_8 	
+! 	thrd Dr_8 'd El_16 Fl_8 	HAr_8 'ha HGl_16 Fl_8
+! 	dbe E_4 'e 			strla E_4			!I
+
+&amp; sharpf sharpc  I!		gg Dr_32 El_16 'e 	
+! 	dbf F_4 			B_8				gg Br_8 'b dg Bl_16 eg Bl_8
+! 	dbc C_4 			gg B_8				tar Br_8 'b Cl_16 Dl_8 	
+! 	gg Er_8 'e Fl_16 El_8 		dbc Cr_8 'c eg Bl_16 dg Cl_8 	
+! 	strlg LA_4 'la 			thrd D_4			C_8 	!t 	
+&amp; sharpf sharpc 	gg B_4  tar B_8  thrd D_4 E_8 	
+!	dbf Fr_8 'f El_16 Dl_8 	gg Fr_16 HAr_8 'ha HGl_8 	
+! 	tdbf Fr_8 'f El_16 Dl_8 	dbe Er_8 'e Dl_16 Cl_8 	
+! 	gg B_4 'b			 tar B_4 			!I 
+
+&amp; sharpf sharpc I! dbhg HG_8 	
+! 	HAr_8 'ha HGl_16  HAl_8 	Br_8 'b Cl_16 Dl_8 	
+! 	gg Er_8 'e Fl_16 El_8 		dbe Er_8 'e Dl_16 Cl_8 	
+! 	HAr_8 'ha HGl_16  HAl_8 	 hdbc Cr_8 'c eg Bl_16 dg Cl_8 	
+! 	gg LA_4 'la 			brl LA_4 			dg C_8  	!t
+&amp; sharpf sharpc 	
+	gg B_4  			tar B_8  		thrd D_4 		E_8 	
+!	gg Fr_8 'f HGl_16 Fl_8 	dbf F_4 		E_8 	
+! 	thrd Dr_8 'd El_16 Fl_8 	HAr_8 'ha HGl_16 Fl_8 	
+! 	dbe E_4 'e 			strla E_4		!I
+
+&amp; sharpf sharpc 	I! gg Dr_32 El_16 'e
+!	gg Fr_8 'f HGl_16 Fl_8 	dbe E_4 		D_8 	
+! 	gg Br_16 Dr_8 'd gg Bl_8 	tar Br_8 'b Cl_16 Dl_8 	
+! 	gg Er_8 'e Fl_16 El_8 		dbc Cr_8 'c eg Bl_16 dg Cl_8 	
+! 	strlg LA_4 'la 			thrd  D_4 		C_8 		!t
+&amp; sharpf sharpc 	gg B_4  tar B_8  thrd D_4 E_8 	
+!	dbf Fr_8 'f El_16 Dl_8 	gg Fr_16 HAr_8 'ha HGl_8 	
+! 	tdbf Fr_8 'f El_16 Dl_8 	dbe Er_8 'e Dl_16 Cl_8 	
+! 	gg B_4 'b			 tar B_4		!I

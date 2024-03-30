@@ -1,0 +1,96 @@
+Bagpipe Reader:1.0
+
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+
+InstrumentMappings,(71,71,46,34,1000,25,65)
+
+GracenoteDurations,(60,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,75,80,200)
+
+TuneFormat,(1,0,F,L,500,500,500,500,P,0,0)
+
+TuneTempo,120
+
+"BB Centenary 1983",(T,C,0,0,Verdana,12,400,0,0,18,0,0,0)
+
+"March",(Y,L,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+"Archie Duncan, Campbeltown",(M,R,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+"Prize-winning composition, the Boys' Brigade's 'Centenary Collection of Bagpipe Music', 1983",(F,C,0,0,Verdana,9,400,0,0,18,0,0,0)
+
+"Part 1, Line 1"
+&amp;  4_4 	I!	gg Cr_8 'c Dl_16	dbb Br_8 Cl_8	eg LA_4 dg Cr_8 El_8
+!	dbha HAr_8 'ha Fl_16	dbe Er_8 Cl_8	dbe E_4 strla E_4
+!	gg Cr_8 'c Dl_16	dbb Br_8 Cl_8	eg LA_4 dg Cr_8 El_8
+!	dbha HAr_8 'ha Fl_16	dbe Er_8 Cl_8	gg B_4 tar B_4	!t
+
+"Part 1, Line 2"
+&amp; 	gg Cr_8 'c Dl_8	dbb Br_8 Cl_8	eg LA_4 dg Cr_8 El_8
+!	dbha HAr_8 'ha Fl_8	dbe Er_8 Cl_8	dbe E_4 gg Fr_8 'f HGl_16
+!	dbha HAr_8 'ha El_16	gg Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 El_8
+!	dbc C_4 eg LA_4 brl ^ts LA_4 LA_4 ^te		!I
+
+&amp; 
+"Seconds, Last 4 bars 1st part",(I,L,0,0,Verdana,9,400,0,0,18,0,0,0)  Er_8 'e Fl_16	thrd Dr_8 El_8	gg C_4 gg Er_8 HGl_8
+!	tg Fr_8 'f Dl_16	dbc Cr_8 LAl_8	dbc C_4 gg Dr_8 'd El_16
+!	gg Fr_8 'f Cl_16	gg	Dr_8 Fl_8	gg Cr_8 El_8	thrd Dr_8 Cl_8
+!	dbe E_4 C_4 grp ^ts C_4 C_4 ^te	!I
+
+"Part 2, Line 1"
+&amp; 	I!	LA_8
+!	dbha HAr_8 'ha El_16	dbf Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 eg LAl_8	
+!	gg Cr_16 El_8 'e	dbf Fr_8 HAl_8	hdbe E_4 gg Fr_8 'f HGl_16
+!	dbha HAr_8 'ha El_16	gg Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 eg LAl_8	
+!	thrd D_4 dbc Cr_8 eg LAl_8	grp B_4 gg Cr_8 El_8 !t
+
+"Part 2, Line 2"
+&amp; 	dbha HAr_8 'ha El_16	dbf Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 eg LAl_8	
+!	gg Cr_16 El_8 'e	dbf Fr_8 HAl_8	hdbe E_4 gg Fr_8 'f HGl_16
+!	dbha HAr_8 'ha El_16	gg Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 El_8
+!	dbc C_4 eg LA_4 brl ^ts LA_4 LA_8 ^te		!I
+
+	
+&amp; "Seconds, Last 4 bars 2nd part",(I,L,0,0,Verdana,9,400,0,0,18,0,0,0)  gg Fr_8 'f Cl_16	gg Dr_8 Fl_8	gg Cr_8 El_8	thrd Dr_8 Cl_8
+!	gg Er_16 HGl_8 'hg	thrd Dr_8 Fl_8 dbc C_4 gg Dr_8 'd El_16
+!	gg Fr_8 'f Cl_16	gg Dr_8 Fl_8	gg Cr_8 El_8	thrd Dr_8 Cl_8
+!	dbe E_4 C_4 grp ^ts C_4 C_8 ^te !I
+
+"Part 3, Line 1"
+&amp;  I!	dbc Cr_8 'c Bl_16	strlg LAr_8 dg Cl_8	dbe E_4 gg Cr_8 El_8
+!	gg Fr_16 HAl_8 'ha	thrd Dr_8 Fl_8	dbe E_4 strla E_4
+!	dbc Cr_8 'c Bl_16	strlg LAr_8 dg Cl_8	dbe E_4 gg Cr_8 El_8
+!	gg Fr_16 HAl_8 'ha	LAr_8 dg Cl_8 dbb B_4 tar B_4	!t
+
+"Part 3, Line 2"
+&amp;  dbc Cr_8 'c Bl_16	strlg LAr_8 dg Cl_8	dbe E_4 gg Cr_8 El_8
+!	gg Fr_16 HAl_8 'ha	thrd Dr_8 Fl_8	dbe E_4 gg Fr_8 'f HGl_16
+!	dbha HAr_8 'ha El_16	gg Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 El_8
+!	dbc C_4 eg LA_4 brl ^ts LA_4 LA_4 ^te		!I
+
+&amp; "Seconds, Last 4 bars 3rd part",(I,L,0,0,Verdana,9,400,0,0,18,0,0,0) 
+dbe Er_8 'e Dl_16	gg Cr_8 El_8	thrd D_4 gg Er_8 HGl_8
+!	tg Dr_16 Fl_8 'f	gg Fr_8 Dl_8	dbc C_4 gg Dr_8 'd El_16
+!	gg Fr_8 'f Cl_16	gg Dr_8 Fl_8	gg Cr_8 El_8	thrd Dr_8 Cl_8
+!	dbe E_4 C_4 grp ^ts C_4 C_4 ^te	!I
+
+"Part 4, Line 1"
+&amp; I! E_8
+!	HA_4 grp HAr_8 Fl_8	dbe Er_8 Cl_8	eg Br_16 dg Cl_8 'c
+!	gg LA_4 tar LAr_8 dg Cl_8	dbe E_4 gg Fr_8 'f HGl_16
+!	HA_4 grp HAr_8 Fl_8	dbe Er_8 Cl_8	dbb Br_8 eg LAl_8
+!	thrd D_4 dbc Cr_8 eg LAl_8 grp B_4 gg Cr_8 El_8	!t
+
+&amp;	HA_4 grp HAr_8 Fl_8	dbe Er_8 Cl_8	eg Br_16 dg Cl_8 'c
+!	gg LA_4 tar LAr_8 dg Cl_8	dbe E_4 gg Fr_8 'f HGl_16
+!	dbha HAr_8 'ha El_16	gg Fr_8 HAl_8	hdbe Er_8 Cl_8	dbb Br_8 El_8
+!	dbc C_4 eg LA_4 brl ^ts LA_4 LA_8 ^te	!I
+
+&amp; "Seconds, Last 4 bars 4th part",(I,L,0,0,Verdana,9,400,0,0,18,0,0,0) 
+F_4 grp Fr_8 Dl_8	dbc Cr_8 El_8	gg Dr_16 El_8 'e
+!	gg C_4 tar Cr_8 El_8 dbc C_4 gg Dr_8 'd El_16
+!	gg Fr_8 'f Cl_16	gg Dr_8 Fl_8	gg Cr_8 El_8	thrd Dr_8 Cl_8
+!	dbe E_4 C_4 grp ^ts C_4 C_8 ^te	!I

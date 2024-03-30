@@ -1,0 +1,39 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+InstrumentMappings,(71,71,45,33,1000,60,70)
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(90,100,60,80,250)
+TuneFormat,(1,0,M,L,500,500,500,500,P,0,0)
+
+"Sleepy Maggie",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Reel",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"PM JG Slattery / arr RSPBA",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"15 Sep 2017",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+TuneTempo,120
+
+&amp; sharpf sharpc 4_4
+I!''	dbe E_4       					gg LAr_8 'la HAl_16			Er_8 'e Dr_16 gg Bl_16 Dl_8 'd
+!	dbe E_4       					dbhg HG_4       			Dr_16 eg LGl_8 'lg gg Br_16 Dl_8 'd
+!	dbe E_4         					gg LAr_8 'la HAl_16			Er_8 'e Dr_16 gg Bl_16 Dl_8 'd
+!	gg Er_8 'e Fl_16 tg HGl_8 'hg El_16     	Dr_16 eg LGl_8 'lg gg Br_16 Dl_8 'd    ''!I
+
+&amp; sharpf sharpc 
+I!''	gg Er_8 'e LAl_16        			gbr LA_4  				gg Er_8 'e LAr_16 gg Bl_16 Dl_8 'd
+!	gg Er_8 'e LAl_16     				gbr LA_4  				gg Br_16  dg LGl_8 'lg gg Br_16 Dl_8 'd
+!	gg Er_8 'e LAl_16          			gbr LA_4 				gg Er_8 'e LAr_16 gg Bl_16 Dl_8 'd
+!	gg Er_8 'e Fl_16 tg HGl_8 'hg El_16     	Dr_16 eg LGl_8 'lg gg Br_16 Dl_8 'd    ''!I
+
+&amp; sharpf sharpc 
+I!''	dbf F_4        					gg Br_8 'b HAl_16	 		Fr_8 'f Br_16 gg Dl_16 El_8 'e
+!	dbf F_4       					gg Br_8 'b HAl_16  			Er_8 'e LAr_16 gg Cl_16 El_8 'e
+!	dbf F_4        					gg Br_8 'b HAl_16   			Fr_8 'f Br_16 gg Dl_16 El_8 'e
+!	gg Fr_8 'f HGl_16 HAl_8 'ha Fl_16       	gg Er_8 'e LAr_16 gg Cl_16 El_8 'e  	''!I
+
+&amp; sharpf sharpc 
+I!''	gg Fr_8 'f Br_16 gg Bl_16 dg Bl_8 'b		gg Fr_8 'f Br_16 gg Dl_16 El_8 'e
+!	gg Fr_8 'f Br_16 gg Bl_16 dg Bl_8 'b		gg Er_8 'e LAr_16 gg Cl_16 El_8 'e
+!	gg Fr_8 'f Br_16 gg Bl_16 dg Bl_8 'b		gg Fr_8 'f Br_16 gg Dl_16 El_8 'e
+!	gg Fr_8 'f HGl_16 HAl_8 'ha Fl_16   		gg Er_8 'e LAr_16 gg Cl_16 El_8 'e	''!I

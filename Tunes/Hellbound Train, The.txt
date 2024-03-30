@@ -1,0 +1,216 @@
+Bagpipe Reader:1.0
+
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+
+InstrumentMappings,(71,71,45,33,1000,60,70)
+
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,100,80,250)
+
+TuneFormat,(1,0,M,C,500,500,500,500,P,1,0)
+
+TuneTempo,90
+
+"The Hellbound Train",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+
+"Hornpipe",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+
+"M. Saul",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+
+"The Antipodes Collection - Volume 1 - Page 33",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc
+
+2_4
+
+I!''	gg ^ts F_4								F_4 ^te ^ts
+!	Fr_8 ^te HGl_8								tg Fr_8 Dl_8
+!	dbe ^ts E_4								E_4 ^te ^ts
+!	Er_8 ^te ^ts HGl_8							HGr_8 ^te HAl_8						!t
+
+&amp; sharpf sharpc
+	strf ^ts HG_4								HG_4 ^te ^ts
+!	HG_4 ^te									HA_4
+!	^ts E_4									E_4 ^te ^ts
+!	E_4 ^te									abr LA_4								!t
+
+&amp; sharpf sharpc
+	gg ^ts F_4								F_4 ^te ^ts
+!	Fr_8 ^te HGl_8								tg Fr_8 Dl_8
+!	dbe ^ts E_4								E_4 ^te ^ts
+!	Er_8 ^te Fl_8								gg Er_8 Cl_8							!t
+
+&amp; sharpf sharpc
+	thrd ^ts D_4								D_4 ^te ^ts
+!	D_4 ^te									gg Cr_8 dg LAl_8
+!	grp ^ts B_4								B_4 ^te ^ts
+!	B_4 ^te ^ts								B_4 ^te								''!I
+
+&amp; sharpf sharpc
+I!	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 HGl_16			tg Br_16 strlg Bl_16 gg Fr_16 Bl_16
+!	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 HGl_16			tg Br_16 strlg Bl_16 gg Fr_16 Bl_16		!t
+
+&amp; sharpf sharpc
+	gg LAr_16 dg LAl_16 gg Er_16 LAl_16			gg LAr_16 Fl_16 gg LAr_16 dg LAl_16
+!	gg Er_16 LAl_16 gg LAr_16 Fl_16				gg LAr_16 dg LAl_16 gg Er_16 LAl_16
+!	gg LAr_16 dg LAl_16 gg Er_16 LAl_16			gg LAr_16 Fl_16 gg LAr_16 dg LAl_16
+!	gg Er_16 LAl_16 gg LAr_16 Fl_16				gg LAr_16 dg LAl_16 gg Er_16 LAl_16		!t
+
+&amp; sharpf sharpc
+	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 HGl_16			tg Br_16 strlg Bl_16 gg Fr_16 Bl_16
+!	gg Fr_16 ^ts El_16 Fl_8 ^te ^ts				F_4 ^te
+!	gg Fr_16 ^ts El_16 Fl_8 ^te ^ts				F_4 ^te								!t
+
+&amp; sharpf sharpc
+	gg LAr_16 dg LAl_16 gg Er_16 LAl_16			gg LAr_16 Fl_16 gg LAr_16 dg LAl_16
+!	gg Er_16 LAl_16 gg LAr_16 Fl_16				gg LAr_16 dg LAl_16 gg Er_16 LAl_16
+!	gg Er_16 ^ts Dl_16 El_8 ^te ^ts				E_4 ^te
+!	gg Er_16 ^ts Dl_16 El_8 ^te ^ts				E_4 ^te								!t
+
+&amp; sharpf sharpc
+	gg Br_16 strlg Bl_16 gg Dr_16 Bl_16			strlg Br_16 El_16 gg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 El_16				gg Br_16 strlg Bl_16 gg Dr_16 Bl_16
+!	gg Cr_16 strlg Cl_16 gg Er_16 Cl_16			strlg Cr_16 Fl_16 gg Cr_16 strlg Cl_16
+!	HGr_16 Cl_16 strlg Cr_16 Fl_16				gg Cr_16 strlg Cl_16 gg Er_16 Cl_16		!t
+
+&amp; sharpf sharpc
+	gg Dr_16 strc Dl_16 gg Fr_16 Dl_16			gg Er_16 strla El_16 HGr_16 El_16
+!	gg Fr_16 stre Fl_16 HAr_16 Fl_16				HGr_16 HAl_16 strhg HAr_16 HGl_16
+!	gg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg B_8 'b								!I
+
+&amp; sharpf sharpc
+I!''	E_16
+!	gg Fr_16 Bl_16 gg Br_16 strlg Bl_16			gg Dr_16 Bl_16 gg Fr_16 Bl_16
+!	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			gg Dr_16 Fl_16 gg Br_16 Dl_16
+!	gg Er_16 Cl_16 gg Cr_16 strlg Cl_16			gg Cr_16 dg LAl_16 gg Er_16 LAl_16
+!	gg Cr_16 El_16 gg LAr_16 dg Cl_16			gg Er_16 LAl_16 gg Cr_16 dg LAl_16		!t
+
+&amp; sharpf sharpc
+	gg Fr_16 Bl_16 gg Br_16 strlg Bl_16			gg Dr_16 Bl_16 gg Fr_16 Bl_16
+!	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			gg Dr_16 Fl_16 gg Br_16 Dl_16
+!	gg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg B_8 'b								''!I
+
+&amp; sharpf sharpc
+I!''	LA_16
+!	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	gbr LAr_8 gg Cr_16 LAl_16					gg Dr_16 LAl_16 gg Er_16 LAl_16
+!	gbr LAr_8 gg Cr_16 LAl_16					gg Dr_16 LAl_16 gg Er_16 LAl_16			!t
+
+&amp; sharpf sharpc
+	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	gg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg B_8 'b								''!I
+
+&amp; sharpf sharpc
+I!	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	pelb Br_8 gg Dr_16 Bl_16					gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	gg Br_16 Cl_16 Dr_16 Bl_16					gg Cr_16 Dl_16 Er_16 Cl_16
+!	gg Dr_16 El_16 Fr_16 Dl_16					gg Er_16 Fl_16 HGr_16 El_16			!I
+
+&amp; sharpf sharpc
+I!''	gg Fr_16 HAl_16 Dr_16 Fl_16					HAr_16 Dl_16 gg Fr_16 HAl_16
+!	Fr_16 HAl_16 Dr_16 HAl_16					Cr_16 HAl_16 Br_16 HAl_16
+!	Er_16 HGl_16 Cr_16 El_16					HGr_16 Cl_16 gg Er_16 HGl_16
+!	tg Er_16 HGl_16 LAr_16 HGl_16				Br_16 HGl_16 Cr_16 HGl_16				!t
+
+&amp; sharpf sharpc
+	gg Fr_16 HAl_16 Dr_16 Fl_16					HAr_16 Dl_16 gg Fr_16 HAl_16
+!	Fr_16 HAl_16 Dr_16 HAl_16					Cr_16 HAl_16 Br_16 HAl_16
+!	Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg Br_8 'b El_16						''!I
+
+&amp; sharpf sharpc
+I!	gg Fr_16 Bl_16 gg Br_16 strlg Bl_16			HGr_16 Bl_16 gg Br_16 strlg Bl_16
+!	HAr_16 Bl_16 gg Br_16 strlg Bl_16			HGr_16 Bl_16 gg Br_16 strlg Bl_16
+!	gg Br_16 strlg Bl_16 gg Fr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	HAr_16 Bl_16 strlg Br_16 HGl_16				tg Br_16 strlg Bl_16 gg Fr_16 Bl_16		!t
+
+&amp; sharpf sharpc
+	gg Fr_16 LAl_16 gg LAr_16 strlg LAl_16			HGr_16 LAl_16 gg LAr_16 strlg LAl_16
+!	HAr_16 LAl_16 gg LAr_16 strlg LAl_16			HGr_16 LAl_16 gg LAr_16 strlg LAl_16
+!	gg LAr_16 strlg LAl_16 gg Fr_16 LAl_16			strlg LAr_16 HGl_16 tg LAr_16 strlg LAl_16
+!	HAr_16 LAl_16 strlg LAr_16 HGl_16			tg LAr_16 strlg LAl_16 gg Fr_16 LAl_16		!t
+
+&amp; sharpf sharpc
+	gg Fr_16 Bl_16 gg Br_16 strlg Bl_16			HGr_16 Bl_16 gg Br_16 strlg Bl_16
+!	HAr_16 Bl_16 gg Br_16 strlg Bl_16			HGr_16 Bl_16 gg Br_16 strlg Bl_16
+!	Fr_16 Cl_16 gg Cr_16 strlg Cl_16				HGr_16 Cl_16 gg Cr_16 strlg Cl_16
+!	HAr_16 Cl_16 gg Cr_16 strlg Cl_16			HGr_16 Cl_16 gg Cr_16 strlg Cl_16		!t
+
+&amp; sharpf sharpc
+	gg Dr_16 strc Dl_16 gg Fr_16 Dl_16			gg Er_16 strla El_16 HGr_16 El_16
+!	gg Fr_16 stre Fl_16 HAr_16 Fl_16				HGr_16 HAl_16 strhg HAr_16 HGl_16
+!	tg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 strb Bl_8					gg B_8 'b								!I
+
+&amp; sharpf sharpc
+I!''	F_16
+!	gg Dr_16 Fl_16 gg Fr_16 stre Fl_16			gg Br_16 Fl_16 gg Fr_16 stre Fl_16
+!	gg Dr_16 Fl_16 gg Fr_16 stre Fl_16			gg Br_16 Fl_16 gg Fr_16 stre Fl_16
+!	gg Dr_16 Fl_16 gg Br_16 Fl_16				gg Cr_16 Fl_16 gg Dr_16 Fl_16
+!	gg Br_16 Fl_16 gg Cr_16 Fl_16				gg Dr_16 Fl_16 gg Br_16 Fl_16			!t
+
+&amp; sharpf sharpc
+	gg Cr_16 El_16 gg Er_16 strla El_16			gg LAr_16 El_16 gg Er_16 strla El_16
+!	gg Cr_16 El_16 gg Er_16 strla El_16			gg LAr_16 El_16 gg Er_16 strla El_16
+!	gg Cr_16 El_16 gg LAr_16 El_16				gg Br_16 El_16 gg Cr_16 El_16
+!	gg LAr_16 El_16 gg Br_16 El_16				gg Cr_16 El_16 gg LAr_16 El_16			!t
+
+&amp; sharpf sharpc
+	gg Dr_16 Fl_16 gg Fr_16 stre Fl_16			gg Br_16 Fl_16 gg Fr_16 stre Fl_16
+!	gg Dr_16 Fl_16 gg Fr_16 stre Fl_16			gg Br_16 Fl_16 gg Fr_16 stre Fl_16
+!	gg Dr_16 Fl_16 gg Br_16 Fl_16				gg Cr_16 Fl_16 gg Dr_16 Fl_16
+!	gg Br_16 Fl_16 gg Cr_16 Fl_16				gg Dr_16 Fl_16 gg Br_16 Fl_16			!t
+
+&amp; sharpf sharpc
+	gg Dr_16 strc Dl_16 gg Fr_16 Dl_16			gg Er_16 strla El_16 HGr_16 El_16
+!	gg Fr_16 stre Fl_16 HAr_16 Fl_16				HGr_16 HAl_16 strhg HAr_16 HGl_16
+!	tg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg B_8 'b								''!I
+
+&amp; sharpf sharpc
+I!	LA_16
+!	gg Br_16 strlg Bl_16 HAr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 HGl_16			tg Br_16 strlg Bl_16 HAr_16 Bl_16
+!	gg Fr_16 Bl_16 gg Dr_16 Bl_16				gg Er_16 Bl_16 gg Fr_16 Bl_16
+!	gg Dr_16 Bl_16 gg Er_16 Bl_16				gg Fr_16 Bl_16 gg Dr_16 Bl_16			!t
+
+&amp; sharpf sharpc
+	gg LAr_16 strlg LAl_16 HAr_16 LAl_16			strlg LAr_16 HGl_16 tg LAr_16 strlg LAl_16
+!	gg Fr_16 LAl_16 strlg LAr_16 HGl_16			tg LAr_16 strlg LAl_16 HAr_16 LAl_16
+!	gg Er_16 LAl_16 gg Cr_16 LAl_16				gg Dr_16 LAl_16 gg Er_16 LAl_16
+!	gg Cr_16 LAl_16 gg Dr_16 LAl_16				gg Er_16 LAl_16 gg Cr_16 LAl_16			!t
+
+&amp; sharpf sharpc
+	gg Br_16 strlg Bl_16 HAr_16 Bl_16			strlg Br_16 HGl_16 tg Br_16 strlg Bl_16
+!	gg Fr_16 Bl_16 strlg Br_16 HGl_16			tg Br_16 strlg Bl_16 HAr_16 Bl_16
+!	gg Cr_16 strlg Cl_16 HAr_16 Cl_16			strlg Cr_16 HGl_16 tg Cr_16 strlg Cl_16
+!	gg Fr_16 Cl_16 strlg Cr_16 HGl_16			tg Cr_16 strlg Cl_16 HAr_16 Cl_16			!t
+
+&amp; sharpf sharpc
+	gg Dr_16 strc Dl_16 gg Fr_16 Dl_16			gg Er_16 strla El_16 HGr_16 El_16
+!	gg Fr_16 stre Fl_16 HAr_16 Fl_16				HGr_16 HAl_16 strhg HAr_16 HGl_16
+!	tg Fr_16 HAl_16 Fr_16 Dl_16					gg Er_16 HGl_16 tg Er_16 Cl_16
+!	gg Dr_16 Bl_16 gstb Bl_8					gg B_8 'b								!I
+
+&amp; sharpf sharpc
+I!''	gg ^ts F_4								F_4 ^te ^ts
+!	Fr_8 ^te HGl_8								tg Fr_8 Dl_8
+!	dbe ^ts E_4								E_4 ^te ^ts
+!	Er_8 ^te ^ts HGl_8							HGr_8 ^te HAl_8						!t
+
+&amp; sharpf sharpc
+	strf ^ts HG_4								HG_4 ^te ^ts
+!	HG_4 ^te									HA_4
+!	^ts E_4									E_4 ^te ^ts
+!	E_4 ^te									abr LA_4								''!I

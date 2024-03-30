@@ -1,0 +1,65 @@
+Bagpipe Reader:1.0
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+InstrumentMappings,(71,71,45,33,1000,60,70)
+GracenoteDurations,(20,40,30,50,100,200,800,1200,250,250,250,500,200)
+FontSizes,(100,100,75,5,300)
+"hdp",(F,L,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+TuneFormat,(1,0,F,L,500,500,500,500,P,0,0)
+
+TuneTempo,90
+
+"The Friendly Piper",(T,L,0,0,Times New Roman,16,700,0,0,18,0,0,0)
+"Retreat",(Y,C,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"H MacKerracher",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"21Mar2022",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+&amp; sharpf sharpc 9_8 	I!'' dbhg HG_8
+!	gg Fr_8 'f HGl_16 HAl_8		thrd D_4 'd 			eg LA_4				D_8
+!	dbb Br_8 'b LAl_16 dg LGl_8	gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	dbf Fr_8 'f El_16 Dl_8		dbe ^ts  E_4 'e			E_4 ^te 				dbhg HG_8		!t
+&amp; sharpf sharpc 
+	gg Fr_8 'f HGl_16 HAl_8		thrd D_4 'd 			eg LA_4				D_8
+!	dbb Br_8 'b LAl_16 dg LGl_8	gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	gg Er_8 'e Dl_16 eg Bl_8	thrd ^ts D_4 'd D_4	^te 						''!I
+
+&amp; sharpf sharpc 	I!'' dbhg HG_8
+!	gg Fr_8 'f HGl_16 HAl_8		gg HA_4 'ha			thrd D_4				HA_8
+!	Fr_8 'f HGl_16 HAl_8		thrd ^ts D_4 'd 		Dr_8 'd ^te El_16 Fl_8	
+!	dbhg HGr_8 'hg tg Fl_16 HGl_8	fg HG_4 'hg		tstb B_4				F_8
+!	dbf Fr_8 'f El_16 Dl_8		dbe ^ts E_4 'e E_4 ^te 	dbhg HG_8			!t
+&amp; sharpf sharpc 
+	tg Fr_8 'f HGl_16 HAl_8		gg HA_4 'ha			thrd D_4				HA_8
+!	Fr_8 'f El_16 Dl_8			gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	gg Er_8 'e Dl_16 eg Bl_8	thrd ^ts D_4 'd D_4	^te 						''!I
+
+&amp; sharpf sharpc I!'' F_8
+!	gg Br_16 Dl_8 'd Bl_8		gg LA_4 'la 			brl LA_4				dg B_8
+!	dbb Br_8 'b LAl_16 dg LGl_8	gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			dbha HA_4			F_8
+!	dbf Fr_8 'f El_16 Dl_8		dbe ^ts E_4 'e E_4 ^te 	F_8			!t
+&amp; sharpf sharpc
+	gg Br_16 Dl_8 'd Bl_8		gg LA_4 'la 			brl LA_4				dg B_8
+!	dbb Br_8 'b LAl_16 dg LGl_8	gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	gg Er_8 'e Dl_16 eg Bl_8	thrd ^ts D_4 'd D_4	^te 						''!I
+
+&amp; sharpf sharpc I!'' dbha HA_8
+!	HA_4					grp HA_8				gg HA_4 'ha 			thrd Dr_8 'd El_16 Fl_8
+!	dbhg HGr_8 HAl_8 HGl_8	dbf ^ts F_4 'f F_4 ^te 	abr LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			dbha HA_4			F_8
+!	dbf Fr_8 'f El_16 Dl_8		dbe ^ts E_4 'd E_4 ^te 	dbha HA_8			!t
+&amp; sharpf sharpc 
+'1 	HA_4					grp HA_8				gg HA_4 'ha 			thrd Dr_8 'd El_16 Fl_8
+!	dbhg HGr_8 HAl_8 HGl_8	dbf ^ts F_4 'f F_4 ^te 	abr LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	gg Er_8 'e Dl_16 eg Bl_8	thrd ^ts D_4 'd D_4	^te 	_' 					''!I
+&amp; sharpf sharpc 
+'2 	HA_4					grp HA_8				gg HA_4 'ha 			thrd D_4			dbhg HG_8
+!	tg Fr_8 'f El_16 Dl_8			gg ^ts LA_4 'la LA_4 ^te 	brl LA_8
+!	gg LAr_8 'la Bl_16 Cl_8		thrd D_4 'd			eg LA_4				F_8
+!	gg Er_8 'e Dl_16 eg Bl_8	thrd ^ts D_4 'd D_4	^te 	_' 					''!I

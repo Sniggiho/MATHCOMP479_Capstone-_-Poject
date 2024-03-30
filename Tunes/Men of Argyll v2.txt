@@ -1,0 +1,157 @@
+Bagpipe Reader:1.0
+
+MIDINoteMappings,(54,56,58,59,61,63,64,66,68,56,58,60,61,63,65,66,68,70,55,57,59,60,62,64,65,67,69)
+
+FrequencyMappings,(370,415,466,494,554,622,659,740,831,415,466,523,554,622,699,740,831,932,392,440,494,523,587,659,699,784,880)
+
+InstrumentMappings,(71,71,45,33,1000,60,70)
+
+GracenoteDurations,(40,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(90,100,100,80,250)
+
+TuneFormat,(1,0,M,L,500,500,500,500,P,1,0)
+
+TuneTempo,75
+
+"PMj John M'Lennan [Seaf]",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"Men of Argyll",(T,C,0,0,Times New Roman,18,600,0,1,18,0,0,0)
+"2 4 March",(Y,L,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"",(F,L,0,0,Times New Roman,12,400,0,0,18,0,0,0)
+
+
+&amp; sharpf sharpc 2_4
+I!'' 	gg Fr_16 'f El_32
+!	thrd Dr_8 gg Bl_8
+	tar Br_8 thrd Dr_16 'd El_32
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Er_16 'e Dl_32
+!	dbc Cr_8 eg LAl_8
+	brl LAr_8 'la Bl_16
+!	gg Cr_32 dg LAl_16 'la dg Cr_16 'c Dl_32
+	dbe Er_8 gg Fr_16 'f El_32
+!t
+
+&amp; sharpf sharpc
+!	thrd Dr_8 gg Cr_16 'c Dl_32
+	dbb Br_8 thrd Dr_16 'd El_32
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Dr_16 'd El_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar B_8
+''!I 
+
+&amp; sharpf sharpc
+I!	dbhg HG_8
+!	dbha HAr_8 thrd Dl_8
+	dbf Fr_8 Er_32 Dl_16 'd
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Cr_16 'c Dl_32
+!	dbe Er_8 gbr LAl_8
+	dbc Cr_8 'c Dl_16
+!	gg Er_16 'e Cl_32 gg LAr_16 'la dg Cl_32
+	dbe Er_8 dbhg HGl_8
+!t
+
+&amp; sharpf sharpc
+!	dbha HAr_8 thrd Dl_8
+	dbf Fr_8 Er_32 Dl_16 'd
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Dr_16 'd El_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar Br_8 dbhg HGl_8
+!t 
+
+&amp; sharpf sharpc
+!	dbha HAr_8 thrd Dl_8
+	dbf Fr_8 Er_32 Dl_16 'd
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Cr_16 'c Dl_32
+!	dbe Er_8 gbr LAl_8
+	dbc Cr_8 'c Dl_16
+!	gg Er_16 'e Cl_32 gg LAr_16 'la dg Cl_32
+	dbe Er_8 gg Fr_16 'f El_32
+!t
+
+&amp; sharpf sharpc
+!	thrd Dr_8 gg Cr_16 'c Dl_32
+	dbb Br_8 thrd Dr_16 'd El_32
+!	dbf Fr_8 HAl_8
+	hdbf Fr_8 gg Dr_16 'd El_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar B_8
+!I 
+
+&amp; sharpf sharpc
+I!'' 	gg F_8
+!	gg Br_8 'b dg Cl_16
+	dbb Br_8 dg Cr_32 El_16 'e
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbf Fr_8 Er_16 'e Cl_32
+!	gg LAr_8 'la Bl_16
+	dbla LAr_8 'la Bl_16
+!	gg Cr_32 dg LAl_16 'la gg Cr_32 El_16 'e
+	gg Fr_16 'f Er_32 gg Cl_32 dg LAl_16 'la
+!t
+
+&amp; sharpf sharpc
+!	gg Br_8 'b dg Cl_16
+	dbb Br_8 dg Cr_32 El_16 'e
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	Cr_32 El_16 'e gg LAr_16 'la dg Cl_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar B_8
+''!I
+
+&amp; sharpf sharpc
+I!	gg Cr_32 El_16 'e
+!	dbf Fr_8 gstb Bl_8
+	dbf Fr_8 'f El_16
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbf Fr_8 Er_16 'e Cl_32
+!	dbe Er_8 gbr LAl_8
+	dbe Er_8 'e Fl_16
+!	dbe Er_16 'e Cr_32 gg Bl_32 dg Cl_16 'c
+	gg LAr_16 'la Br_32 gg Cl_32 El_16 'e
+!t
+
+&amp; sharpf sharpc
+!	dbf Fr_8 gstb Bl_8
+	dbf Fr_8 'f El_16
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	Cr_32 El_16 'e gg LAr_16 'la dg Cl_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar Br_8 gg Cr_32 El_16 'e
+!t
+
+&amp; sharpf sharpc
+!	dbf Fr_8 gstb Bl_8
+	dbf Fr_8 'f El_16
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbf Fr_8 Er_16 'e Cl_32
+!	dbe Er_8 gbr LAl_8
+	dbe Er_8 'e Fl_16
+!	dbe Er_16 'e Cr_32 gg Bl_32 dg Cl_16 'c
+	gg LAr_16 'la Br_32 gg Cl_32 El_16 'e
+!t
+
+&amp; sharpf sharpc
+!	gg Cr_32 Fl_16 'f gg Er_16 'e Cl_32
+	gstb Br_8 dg Cr_32 El_16 'e
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	Cr_32 El_16 'e gg LAr_16 'la dg Cl_32
+!	gg Fr_16 'f Er_32 gg Fl_32 HAl_16 'ha
+	hdbc Cr_8 eg LAl_8
+!	gg B_4
+	tar B_8
+!I

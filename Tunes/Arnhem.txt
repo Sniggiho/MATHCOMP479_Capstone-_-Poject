@@ -1,0 +1,80 @@
++Bagpipe Reader:1.0
+
+MIDINoteMappings,(55,57,59,60,62,64,65,67,69,57,59,61,62,64,66,67,69,71,56,58,60,61,63,65,66,68,70)
+
+FrequencyMappings,(392,440,494,523,587,659,699,784,880,440,494,554,587,659,740,784,880,988,415,466,523,554,622,699,740,831,932)
+
+InstrumentMappings,(71,71,46,34,1000,20,20)
+
+GracenoteDurations,(40,40,30,50,100,200,800,1200,250,250,250,500,200)
+
+FontSizes,(100,100,100,120,250)
+
+TuneFormat,(1,0,F,C,500,500,500,510,P,1,0)
+
+TuneTempo,70
+
+
+"Arnhem - A Lament for the Fallen",(T,C,0,0,times,20,800,0,1,18,0,0,0)
+"A Lament",(Y,L,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"John Haynes, Isleworth",(M,R,0,0,Times New Roman,14,400,0,0,18,0,0,0)
+"For Major Hibbert MC MBE last officer standing at the bridge, and the Royal Cornwall Branch Parachute Regt Association",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
+
+
+&amp; sharpf sharpc 
+I!	LA_4
+!	6_4 gg ^ts E_4 space E_4 space E_4 space E_4 space E_4 ^te HG_4
+!	4_4 dbd D_4 LA_4	gg B_4 dg LG_4 
+!	gg ^ts LA_4 space space LA_4 space space LA_4 space space LA_4 ^te
+!	brl ^ts LA_4 space space  LA_4 space space LA_4 ^te gg LA_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4 gg ^ts E_4 space E_4  space E_4  space E_4 space E_4 ^te HA_4
+!	4_4 hdbe E_4 LG_4 tg ^ts HG_4 space HGr_8 ^te  Fl_8
+!	dbe ^ts E_4 space space E_4  space space E_4 space space E_4  ^te
+!	strla ^ts E_4 space space E_4 space space E_4 ^te abr LA_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4 gg ^ts E_4 space E_4 space E_4 space E_4 space E_4  ^te dbhg HG_4 
+!	4_4 tg ^ts F_4   Fr_8  ^te Dl_8 gg B_4 dg  LG_4 
+!	gg ^ts LA_4 space  LA_4 space  LA_4 space LA_4 ^te
+!	brl ^ts LA_4 space LA_4 space LA_4 ^te gg B_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4 gg ^ts  LG_4 space LG_4 space LG_4 space LG_4 space LG_4  ^te dg B_4 
+!	4_4 tg HG_4 LG_4	dbd ^ts D_4 space Dr_8 ^te Bl_8
+!	gg ^ts LA_4 space  LA_4   space  LA_4  space  LA_4 ^te
+!	gbr ^ts LA_4  space LA_4 space LA_4 ^te
+!I
+
+&amp; sharpf sharpc 
+I!	E_4
+!	6_4 ^ts dbha HA_4 space HA_4 space HA_4  space HA_4 space HA_4  ^te LA_4
+!	4_4 dbha HA_4  D_4 tg HG_4 B_4 
+!	dbe  ^ts E_4 space E_4 space E_4 space E_4 ^te
+!	brl ^ts LA_4 space LA_4 space LA_4 ^te gg E_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4 ^ts dbha HA_4 HA_4 HA_4 HA_4 HA_4  ^te HG_4
+!	4_4 dbf F_4  D_4	tg ^ts HG_4 HGr_8 ^te Fl_8 
+!	dbe ^ts E_4 space E_4 space E_4 space E_4 ^te
+!	strla ^ts E_4 space E_4 space E_4 ^te gg LA_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4 ^ts dbha HA_4 space HA_4 space HA_4 space HA_4 space HA_4 ^te fg HG_4 
+!	4_4 tg ^ts F_4 Fr_8 ^te Dl_8	gg B_4 D_4 
+!	dbe  ^ts E_4 space E_4 space E_4 space  E_4 ^te
+!	brl ^ts LA_4 space LA_4 space LA_4 ^te gg B_4
+!t
+
+&amp; sharpf sharpc 
+!	6_4	gg ^ts  LG_4 space LG_4 space LG_4 space LG_4 space LG_4 ^te B_4 
+!	4_4 tg HG_4 LG_4 	dbd ^ts D_4 Dr_8 ^te Bl_8
+!	gg ^ts LA_4 space LA_4 space LA_4 space LA_4  ^te
+!	gbr ^ts LA_4  space LA_4 space LA_4 ^te
+!I
