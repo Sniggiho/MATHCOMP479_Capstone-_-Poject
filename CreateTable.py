@@ -6,7 +6,7 @@ import codecs
 
 
 idioms = ["March", "Strathspey", "Reel", "Hornpipe", "Jig", "Waltz", "Air", "Slow Air", "Polka"]
-timeSigs = ["4_4", "2_4", "2_2", "3_4", "6_8", "12_8", "9_8", "5_4"," C ", "C_"]
+timeSigs = ["4_4", "2_4", "2_2", "3_4", "6_8", "12_8", "9_8", "5_4"," C ", " C_ "]
 
 tuneNames = os.listdir("UniqueTunes")
 tunes = [None]*len(tuneNames) # this will hold all of the info about each tune (one row per tune)
