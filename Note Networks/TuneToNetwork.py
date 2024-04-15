@@ -21,15 +21,41 @@ def getTuneString(title):
 
 def expandTune(tuneString):
     """Given a string representing a tune in BWW format, expands it to be linear (i.e. no repeats, frist/second endings, etc.)"""
-    innerPartPat = "I\![\s|\S]*I\!"
-    # endPartPat = "((?<!I\!)[\s|\S]*)+" # match everything except the start of a new part
-    # endPartPat = r"I\![\s|\S]*I\!\B" # match everything except the start of a new part
-    endPartPat = "[\s|\S]+?(?=I\!)"
-    res = re.findall(endPartPat, tuneString)
-    print(res)
-    for r in res:
-        print(r)
-        print("______________________________________________")
+    expandedTuneString = ""
+    parts = tuneString.split("I!")
+    
+    for p in parts:
+
+        if p[0:2] == "''" and not "_'" in p: # if there is a repeat but no first/second endings
+            expandedTuneString = expandedTuneString + p + p
+        elif p[0:2] == "''" and "_'" in p: # if there is a repeat and different first vs. second ending
+            endings = re.findall("'[1|2][\s|\S]+?_'", p)
+            head = p[0:p.find(endings[0])] # before the split to first vs second ending
+            tail = p[p.find(endings[-1]) + len(endings[-1]):] # this is empty if the endings are really endings, and will contain notes if the "endings" are in fact variations inside the part
+
+            if not re.findall("\w_\d",tail): # if there are no notes after the end of the second ending, proceed
+                expandedTuneString = expandedTuneString + head
+
+                if len(endings)>1: # if both endings are included in this part
+                    for e in endings:
+                        if "'1" in e:
+                            expandedTuneString = expandedTuneString + e
+
+                    expandedTuneString = expandedTuneString + head
+
+                    for e in endings:
+                        if "'2" in e:
+                            expandedTuneString = expandedTuneString + e
+
+                else: # if this is a 2 of 4 type situation
+                    if re.findall("'\d\d", endings[0]): # if this is a line to be repeated later, we'll just double it now. NOTE: this would be a problem for comparing across tunes, but will be okay to count frequencies
+                        expandedTuneString = expandedTuneString + endings[0] + head + endings[0] + endings[0]
+                    else: # if this is the line to be not repeated (e.g. being replaced by that of an earlier part on the repeat)
+                        expandedTuneString = expandedTuneString + endings[0] + head
+            else: # otherwise, the first and second endings  aren't really endings, but in-part variations
+                expandedTuneString = expandedTuneString + head + endings[0] + tail + head + endings [1] + tail
+    return expandedTuneString
+
     
 
 def getNotes(tune):
