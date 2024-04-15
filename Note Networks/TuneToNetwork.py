@@ -18,10 +18,22 @@ def getTuneString(title):
 
     return tune
 
+
+def expandTune(tuneString):
+    """Given a string representing a tune in BWW format, expands it to be linear (i.e. no repeats, frist/second endings, etc.)"""
+    innerPartPat = "I\![\s|\S]*I\!"
+    # endPartPat = "((?<!I\!)[\s|\S]*)+" # match everything except the start of a new part
+    # endPartPat = r"I\![\s|\S]*I\!\B" # match everything except the start of a new part
+    endPartPat = "[\s|\S]+?(?=I\!)"
+    res = re.findall(endPartPat, tuneString)
+    print(res)
+    for r in res:
+        print(r)
+        print("______________________________________________")
+    
+
 def getNotes(tune):
-    """Given a tune string, returns a list of all the notes in that tune
-    TODO: update this to deal with repeats, dumb endings, etc.
-    """
+    """Given a tune string, returns a list of all the notes in that tune"""
     dirtyNotes = re.findall(notesPat, tune)
     notes = []
 
@@ -51,9 +63,7 @@ def makeEdgeListCSV(transFreqs, filename):
             f.write(key+"\n")
     f.close()
 
-
-tuneString = getTuneString("Scotland The Brave")
-freqs = getTransitionFreqs(getNotes(tuneString))
-print(freqs)
-makeEdgeListCSV(freqs, "STBEdgeList.csv")
+if __name__ == "__main__":
+    tuneString = getTuneString("Glendaruel Highlanders")
+    expandTune(tuneString)
 
