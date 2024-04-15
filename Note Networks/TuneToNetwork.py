@@ -70,10 +70,14 @@ def getNotes(tune):
         notes.append(n)
     return notes
 
-def getTransitionFreqs(notes):
+def getNotesFromName(title):
+    """Convenience method; given a tune name, returns all of the notes in the expanded tune as a list"""
+    return getNotes(expandTune(getTuneString(title)))
+
+
+def getTransitionFreqs(notes, transFreqs = {}): #TODO: this is sloppy
     """Given a list of cleaned notes corresponding to a tune, counts the frequency of transition between ordered pairs of notes
     in a hashmap with keys = ordered note pair and values = number of occurences"""
-    transFreqs = {}
     for i in range(len(notes)-1):
         if notes[i]+"," + notes[i+1] in transFreqs.keys():
             transFreqs[notes[i]+","+notes[i+1]] = transFreqs[notes[i]+"," + notes[i+1]] +1
@@ -82,6 +86,7 @@ def getTransitionFreqs(notes):
     return transFreqs
     
 def makeEdgeListCSV(transFreqs, filename):
+    """Given a hashmap with note pairing frequencies, creates an edge list csv appropriate for use in Gephi"""
     f = open(filename,mode="w")
 
     for key in transFreqs.keys():
@@ -90,6 +95,22 @@ def makeEdgeListCSV(transFreqs, filename):
     f.close()
 
 if __name__ == "__main__":
-    tuneString = getTuneString("Glendaruel Highlanders")
-    expandTune(tuneString)
+    marches4_4 = []
 
+    f = open("TuneInfo.csv")
+    rows = f.readlines()
+    for r in rows:
+        if "March,4_4" in r:
+            marches4_4.append( r[0:r.find("March,4_4")].replace("\"","").strip(","))
+        elif "March, C" in r:
+            marches4_4.append( r[0:r.find("March, C")].replace("\"","").strip(","))
+
+    f.close()
+
+    allTransFreqs = {} # TODO: this is sloppy
+
+    for march in marches4_4:
+        notes = getNotesFromName(march)
+        getTransitionFreqs(notes, allTransFreqs)
+
+        makeEdgeListCSV(allTransFreqs, "Note Networks/All 4_4 Marches.csv")
