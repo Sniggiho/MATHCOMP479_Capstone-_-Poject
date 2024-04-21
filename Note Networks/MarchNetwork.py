@@ -65,7 +65,7 @@ def getNoteDuration(note):
 #         weights = list
 #         pass
 
-def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMeasures = 16):
+def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMeasures = 16, includeStartNote = False):
     """Given a map with keys in format note1,note2 and values containing the number of transitions between those notes 
     does a ranodm walk on those notes to create a tune measure by measure."""
     
@@ -73,9 +73,13 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 
     currNote = staringNote    
     m = 0 # the number of measures generated so far
-    mSum = getNoteDuration(currNote) # the total duration of notes in the current measure 
+    mSum = 0 # the total duration of notes in the current measure 
     tune = []
-    measure = [currNote]
+    measure = []
+
+    if includeStartNote:
+        measure.append(currNote)
+        msum += getNoteDuration(currNote)
 
     while m < numMeasures:
         neighbors = []
@@ -104,6 +108,11 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 
 
 
+#TODO: 
+# - beat by beat to avoid weird ass ties when possible
+# - recursive to defeat "No legal note" exception
+# - phrase by phrase to create believable bagpipe structure?
+# - ways to bake in more structure via the network itself?
 
-tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All 4_4 Marches.csv"), staringNote="LA_8d", numMeasures=4)
+tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All 4_4 Marches.csv"), staringNote="E_16", numMeasures=4, includeStartNote = False)
 print(tune)
