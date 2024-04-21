@@ -23,7 +23,7 @@ TuneTempo,140
 "www.pipefest.com",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
 
 &amp; sharpf sharpc 6_8 
-I!''	'1  E_4 _' ! 
+I!''  E_4 ! 
 gg LAr_8 dg LAr_8 eg LAl_8 E_4 LA_8 
 ! Cr_8 'c Dr_16 El_8 thrd D_4 C_8
 ! gg Br_8 dg Br_8 eg Bl_8 dbc C_4 E_8 

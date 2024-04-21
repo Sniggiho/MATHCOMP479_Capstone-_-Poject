@@ -24,7 +24,7 @@ TuneTempo,125
 
 
 &amp; sharpf sharpc 6_8
-I!''	'1 gg _' Cr_8 dg LAl_8 eg LAl_8	gg Cr_8 dg LAl_8 eg LAl_8
+I!''	 Cr_8 dg LAl_8 eg LAl_8	gg Cr_8 dg LAl_8 eg LAl_8
 !	gg Br_8 dg LGl_8 eg LGl_8		hthrd D_4 B_8
 !	gg Cr_8 dg LAl_8 eg LAl_8		gg Cr_8 dg LAl_8 eg LAl_8
 !	gg Er_8 'e grp El_8 'e			dbha HA_4 E_8				!t

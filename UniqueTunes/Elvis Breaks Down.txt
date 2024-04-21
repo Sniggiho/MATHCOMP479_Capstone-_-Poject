@@ -39,7 +39,7 @@ TuneTempo,90
 &amp; sharpf sharpc	gg LAr_8 Dr_8 strc Dl_8	gg Dr_8 Cr_8 Dl_8
 !	gg Dr_8 Fr_8 El_8	gg Dr_8 Br_8 strlg LAl_8
 !	gg B_4	Dr_8 gg LAr_8 Dr_8 strc Dl_8
-!	gg Er_8 Fr_8 Cl_8		'2 gg D_4 _'	B_8 ''!I		
+!	gg Er_8 Fr_8 Cl_8		gg D_4	B_8 ''!I		
 
 
 &amp; sharpf sharpc I!''	gg LAr_8 Dr_8 Fl_8	dbha HA_4	F_8
@@ -60,14 +60,14 @@ TuneTempo,90
 &amp; sharpf sharpc '24	gg LAr_8 Dr_8 strc Dl_8	gg Dr_8 Br_8 strlg LAl_8
 !	gg Br_8 Dr_8 LAl_8	gg Fr_8 Er_8 Dl_8
 !	gg B_4	Dr_8 gg LAr_8 Dr_8 strc Dl_8
-!	gg Er_8 Fr_8 Cl_8	D_4	gg D_4	B_8 ''!I	_'
+!	gg Er_8 Fr_8 Cl_8	D_4	gg D_4	B_8 _' ''!I	
 
-&amp; sharpf sharpc I!'' '1	LAr_8 Dr_8 HAl_8	Fr_8 Er_8 Dl_8
+&amp; sharpf sharpc I!'' 	LAr_8 Dr_8 HAl_8	Fr_8 Er_8 Dl_8
 !	gg Fr_8 HAr_8 Dl_8	gg Fr_8 Er_8 Dl_8
 !	gg Br_8 El_8 strla El_8	gg E_4	D_8
-!	gg Er_8 Fr_8 stre Fl_8	gg Er_8 Dr_8 Bl_8	_'	!t
+!	gg Er_8 Fr_8 stre Fl_8	gg Er_8 Dr_8 Bl_8	!t
 
-&amp; sharpf sharpc	gg LAr_8 Dr_8 strc Dl_8	HAr_8 Fr_8 Dl_8
+&amp; sharpf sharpc	gg '1 LAr_8 Dr_8 strc Dl_8	HAr_8 Fr_8 Dl_8
 !	gg Fr_8 HAr_8 Dl_8	gg Fr_8 Er_8 Dl_8
 !	gg B_4	Dr_8 gg LAr_8 Dr_8 strc Dl_8
-!	gg Er_8 Fr_8 Cl_8	D_4 'e	''!I
+!	gg Er_8 Fr_8 Cl_8	D_4 'e	_'  ''!I

@@ -53,7 +53,9 @@ def expandTune(tuneString):
                     else: # if this is the line to be not repeated (e.g. being replaced by that of an earlier part on the repeat)
                         expandedTuneString = expandedTuneString + endings[0] + head
             else: # otherwise, the first and second endings  aren't really endings, but in-part variations
-                expandedTuneString = expandedTuneString + head + endings[0] + tail + head + endings [1] + tail
+                expandedTuneString = expandedTuneString + head + endings[0] + tail + head + endings[1] + tail
+        else: # if there are no repeats
+            expandedTuneString = expandedTuneString + p
     return expandedTuneString
 
     
@@ -96,21 +98,29 @@ def makeEdgeListCSV(transFreqs, filename):
 
 if __name__ == "__main__":
     marches4_4 = []
+    # print(expandTune(getTuneString("Scotland the Brave")))
+    jigs = []
 
     f = open("TuneInfo.csv")
     rows = f.readlines()
+
+    # 4_4 marches
     for r in rows:
         if "March,4_4" in r:
             marches4_4.append( r[0:r.find("March,4_4")].replace("\"","").strip(","))
         elif "March, C" in r:
             marches4_4.append( r[0:r.find("March, C")].replace("\"","").strip(","))
 
+    # Jigs -------------------
+    # for r in rows:
+    #     if ",Jig," in r:
+    #         jigs.append(r[0:r.find(",Jig,")].replace("\"", "").strip(","))
     f.close()
 
     allTransFreqs = {} # TODO: this is sloppy
 
-    for march in marches4_4:
-        notes = getNotesFromName(march)
+    for tune in marches4_4:
+        notes = getNotesFromName(tune)
         getTransitionFreqs(notes, allTransFreqs)
 
         makeEdgeListCSV(allTransFreqs, "Note Networks/All 4_4 Marches.csv")

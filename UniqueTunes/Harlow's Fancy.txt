@@ -15,7 +15,7 @@ TuneTempo,110
 "PHSD May 2017",(F,R,0,0,Times New Roman,10,400,0,0,18,0,0,0)
 
 
-&amp; sharpf sharpc 6_8	I!'' 	'2 HA_8 _'
+&amp; sharpf sharpc 6_8	I!''  HA_8
 !	LA_4 				dg C_8				dbe Er_8 Cl_8 dg LAl_8
 !	gg F_4				E_8				gg Cr_8 LAl_8 dg Cl_8
 !	dbha HA_4			E_8				gg F_4				E_8

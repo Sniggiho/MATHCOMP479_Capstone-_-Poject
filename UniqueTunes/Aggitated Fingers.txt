@@ -40,7 +40,7 @@ gg Cr_16 dg LAl_8 'la  Cl_8 	dbe E_4 	C_8 !
 gg Cr_16 El_8 'e Cl_8 	gg LAr_8 'la dg Cl_16 El_8 ! 
 gg Er_8 'e Cl_16 El_8 		dbf F_4 	E_8 !t
 
-&amp; sharpf sharpc '1 
+&amp; sharpf sharpc '1
 gg Cr_16 El_8 'e Cl_8 	gg LAr_8 'la dg Cl_16 El_8 ! 
 gg Cr_16 dg LAl_8 'la  Cl_8 	dbe E_4 	C_8 ! 
 HAr_8 'ha Cl_16 dg LAl_8 		gg Er_8 'e Cl_16 strlg Cl_8 ! 
@@ -56,7 +56,7 @@ HAr_8 'ha Cl_16 dg LAl_8 	gg Cr_8 'c Bl_16 strlg Bl_8  !t
 HAr_8 'ha LAl_16 gg LAl_8 	HAr_8 'ha Fl_16 gg El_8 ! 
 gg Fr_16 HAl_8 'ha LAl_8 	gg Cr_16 El_8 'e Cl_8 ! 
 HAr_8 'ha Cl_16 dg LAl_8 		gg Er_8 'e Cl_16 strlg Cl_8 ! 
-gg Cr_8 'c Bl_16 strlg Bl_8 	dbf F_4 	_'  ''!I
+gg Cr_8 'c Bl_16 strlg Bl_8 	dbf F_4   ''!I
 
 &amp; sharpf sharpc I!'' HG_8 ! 
 gg Er_8 'e Cl_16 dg LAl_8 	brl LA_4 	C_8 ! 

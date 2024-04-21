@@ -46,24 +46,6 @@ def getNoteDuration(note):
 
     return dur
 
-# def randomTuneWalk(G, staringNote = None, measureLen = 32, numMeasures = 16):
-#     """Given a weighted digraph G - as well as optionally a starting note, time signature and nummber of 32nds per measure - does a random walk on G to generate a bagpipe tune.
-#     Attempts to avoid ties across barlines where possible, adhering to measure level tune logic.
-#     """
-#     if staringNote == None:
-#         currNote = random.choice(list(G.nodes()))
-#     else:
-#         currNote = staringNote
-#     print("currNote initialized as", currNote)
-    
-#     m = 0 # the number of measures generated so far
-#     mSum = getNoteDuration(currNote) # the total duration of notes in the current measure 
-
-#     while m <= numMeasures:
-
-#         neighbors = list(G[currNote].keys()) # all the neighbors of 
-#         weights = list
-#         pass
 
 def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMeasures = 16, includeStartNote = False):
     """Given a map with keys in format note1,note2 and values containing the number of transitions between those notes 
@@ -79,7 +61,7 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 
     if includeStartNote:
         measure.append(currNote)
-        msum += getNoteDuration(currNote)
+        mSum += getNoteDuration(currNote)
 
     while m < numMeasures:
         neighbors = []
@@ -114,5 +96,5 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 # - phrase by phrase to create believable bagpipe structure?
 # - ways to bake in more structure via the network itself?
 
-tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All 4_4 Marches.csv"), staringNote="E_16", numMeasures=4, includeStartNote = False)
+tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All Jigs.csv"), staringNote="E_8", measureLen=24, numMeasures=4, includeStartNote = False)
 print(tune)

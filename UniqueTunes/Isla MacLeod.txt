@@ -47,7 +47,7 @@ TuneTempo,90
 &amp; sharpf sharpc '2	gg Cr_8 'c dg LAl_16 eg LAl_8	gg LAr_8 'la dg Cl_16 El_8
 !	gg Fr_8 'f HGl_16 HAl_8	hdbf F_4 E_8
 !	gg Fr_8 'f Bl_16 strlg Bl_8	gg Fr_8 'f El_16 Dl_8
-!	gg Cr_8 'c dg LAl_16 eg LAl_8	brl LA_4	!I
+!	gg Cr_8 'c dg LAl_16 eg LAl_8	brl LA_4 _'	!I
 
 &amp; sharpf sharpc I!''	E_8
 !	gg Cr_8 'c dg LAl_16 eg LAl_8	gg LAr_8 'la dg LAl_16 eg LAl_8

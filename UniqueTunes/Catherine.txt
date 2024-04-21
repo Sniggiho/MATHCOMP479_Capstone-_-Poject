@@ -53,7 +53,7 @@ I!''   HG_4 	'hg tg F_4 	D_8
 &amp; sharpf sharpc sharpf sharpc '2 HAr_8 Er_8 gg Cl_8 	gg LAr_8 dg Cr_8 HGl_8 	
 ! tg Fr_8 Dr_8 eg LAl_8 	dbe E_4 	F_8 	
 ! HGr_8 tg Fr_8 HGl_8 	tg Er_8 Dr_8 eg Bl_8 	
-! Dr_8 gg LGr_8 dg Bl_8 	strlg LA_4 	'la 
+! Dr_8 gg LGr_8 dg Bl_8 	strlg LA_4 	'la _'
 !   
 I!'' edre E_4 	'e gg Er_8 Fr_8 HGl_8 	
 ! tg Fr_8 Dr_8 eg LAl_8 	gg Er_8 LAr_8 dg Cl_8 	
@@ -64,7 +64,7 @@ I!'' edre E_4 	'e gg Er_8 Fr_8 HGl_8
 &amp; sharpf sharpc sharpf sharpc gg HG_4 	E_8 	gg Fr_8 Dr_8 gg Bl_8 	
 ! gg Dr_8 eg Dr_8 strlg Dl_8 	gg Br_8 dg LGr_8 eg LGl_8 	
 ! gg LAr_8 HGr_8 tg Fl_8 	gg Er_8 Dr_8 eg Bl_8 	
-! Dr_8 gg LGr_8 dg Bl_8 	_' '1 strlg LA_4 	'la _' ''!I
+! Dr_8 gg LGr_8 dg Bl_8 	'1 strlg LA_4 	'la _' ''!I
 
 &amp; sharpf sharpc sharpf sharpc '2 strlg LA_4 	_' !I
 
