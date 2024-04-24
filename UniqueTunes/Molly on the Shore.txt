@@ -25,7 +25,7 @@ TuneFormat,(1,0,M,L,500,500,500,500,P,0,0)
 TuneTempo,98
 
 
-&amp; sharpf sharpc C_ I!'' '2 E_8 _'
+&amp; sharpf sharpc C_ I!'' E_8
 !	gg LAr_8 'la dg LAl_16 eg LAl_8 'la dg Bl_16	dbe E_4 gg Dr_8 'd Bl_16
 !	dbe E_4 gg Dr_8 'd Bl_16	gg LGr_8 'lg LAr_16 gg Bl_16 dg LGl_8 'lg !t
 

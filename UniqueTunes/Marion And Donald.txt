@@ -26,7 +26,7 @@ TuneTempo,98
 
 
 &amp; sharpf sharpc C_ I!''
-'2 D_8 _'
+D_8
 !	dbb B_4		eg LGr_8 'lg dg Bl_16		gg LAr_8 'la dg LAl_16 eg LAl_8 'la Dl_16
 !	dbb B_4		eg LGr_8 'lg dg Bl_16		gg Er_8 'e Fl_16 HGl_8 'hg Dl_16
 !	dbb B_4		eg LGr_8 'lg dg Bl_16		gg LAr_8 'la dg LAl_16 eg LAl_8 'la Dl_16

@@ -26,7 +26,7 @@ TuneTempo,98
 
 
 &amp; sharpf sharpc  C_   I!''    
-	 '2      HA_8    _'      
+	    HA_8       
 !	hdbc C_4	 gg Er_8 'e LAl_16	gg LAr_16 dg LAr_8 'la gg Fr_8 'f El_16 
 !	dbc C_4 gg Er_8 'e Cl_16	 gg Br_8 'b dg Bl_16 eg Bl_8 'b HAl_16   
 !	hdbc C_4	 gg Er_8 'e LAl_16	gg LAr_16 dg LAr_8 'la gg Fr_8 'f El_16 
