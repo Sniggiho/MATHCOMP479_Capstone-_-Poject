@@ -38,7 +38,7 @@ def getTuneNetworkStats(tune):
     avgPathLen = -1
     if connected:
         diameter = nx.diameter(g)
-        avgPathLen = nx.average_shortest_path_length(g, weight="weight")
+        avgPathLen = nx.average_shortest_path_length(g)
     return (clustCoef,connected, diameter, avgPathLen)
 
 
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     # get stats for each one
 
     f = open("Note Networks/Tune Stats.csv", mode="w")
+    f.write("name,clustcoef,connected,diameter,avgpathlen\n")
     for t in tuneNames:
         stats = "\"" +  t + "\""
         for s in getTuneNetworkStats(t):
