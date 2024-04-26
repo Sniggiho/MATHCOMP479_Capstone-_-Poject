@@ -82,6 +82,6 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 # - recursive to defeat "No legal note" exception
 # - phrase by phrase to create believable bagpipe structure?
 # - ways to bake in more structure via the network itself?
-
-tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All Reels.csv"), staringNote="LA_8", measureLen=8, numMeasures=8, includeStartNote = True)
-print(tune)
+if __name__ == "__main__":
+    tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All Reels.csv"), staringNote="LA_8", measureLen=8, numMeasures=8, includeStartNote = True)
+    print(tune)
