@@ -14,14 +14,17 @@ def weightedGraphFromEdgeList(file):
     """Given a csv edgelist with a weight n edge (a,b) represented by n repeated entries of a,b returns a networkx weighted digraph"""
     return(transFreqsToGraph(RandomWalk.generateTransFreqMap(file)))
 
-def getEditdistance(tune1,tune2):
-    """Given the titles of two tunes, returns the edit distance between the note-transition graphs of those tunes
-    NOTE: this is too slow to use in practice
+def getEditdistance(path1,path2, timelimit = -1):
+    """Given paths to edgelist csv files for two networks, returns the edit distance between the note-transition graphs of those tunes
+    NOTE: this is too slow to use in practice for comparison between many networks. I highly reccomend using the time limit
     """
-    g1 = weightedGraphFromEdgeList("Note Networks/Indv Tune Networks/" + tune1 + ".csv")
-    g2 = weightedGraphFromEdgeList("Note Networks/Indv Tune Networks/" + tune2 + ".csv")
-    for v in nx.optimize_graph_edit_distance(g1,g2):
-        print(v)
+    g1 = weightedGraphFromEdgeList(path1)
+    g2 = weightedGraphFromEdgeList(path2)
+    print(g1, g2)
+    if timelimit > 0:
+        return nx.graph_edit_distance(g1,g2,timeout=timelimit)
+    else:
+        return nx.graph_edit_distance(g1,g2)
 
 def getTuneNetworkStats(tune):
     """Given a tune title, returns a list containing various statistics about the graph:
@@ -34,16 +37,29 @@ def getTuneNetworkStats(tune):
     g = weightedGraphFromEdgeList("Note Networks/Indv Tune Networks/" + tune + ".csv")
     clustCoef = nx.average_clustering(g, weight='weight')
     connected = nx.is_strongly_connected(g)
-    diameter = -1
-    avgPathLen = -1
+    diameter = "NA"
+    avgPathLen = "NA"
     if connected:
         diameter = nx.diameter(g)
         avgPathLen = nx.average_shortest_path_length(g)
     return (clustCoef,connected, diameter, avgPathLen)
 
+def getIdiomStats(pathToEdgeListCsv):
+    """Same as above, but for a given idiom. This one takes a file path to the csv edgelist of the graph.
+    TODO: should refactor this and the above method into one"""
+    g = weightedGraphFromEdgeList(pathToEdgeListCsv)
+    clustCoef = nx.average_clustering(g, weight='weight')
+    connected = nx.is_strongly_connected(g)
+    diameter = "NA"
+    avgPathLen = "NA"
+    if connected:
+        diameter = nx.diameter(g)
+        avgPathLen = nx.average_shortest_path_length(g)
+    return (clustCoef,connected, diameter, avgPathLen)
 
-if __name__ == "__main__":
-
+def makeStatCsvs():
+    """Creates csv files with statistics on tune and idiom networks.
+    NOTE: highly brittle/specialized. Honestly shouldn't really be a method, but I wanted the code out of main. Use with caution."""
     # gather the names of all 4_4 marches, jigs, and reels
     f = open("TuneInfo.csv")
     rows = f.readlines()
@@ -81,3 +97,21 @@ if __name__ == "__main__":
 
         f.write(stats + "\n")
     f.close()
+
+    # get stats for full idiom graphs
+    f = open("Note Networks/Idiom Stats.csv", mode="w")
+    f.write("idiom,clustcoef,connected,diameter,avgpathlen\n")
+    for i in ["4_4 Marches", "Jigs", "Reels"]:
+        stats = i
+        for s in getIdiomStats("Note Networks/All " + i + ".csv"):
+            stats  = stats + "," + str(s)
+        f.write(stats + "\n")
+    f.close()
+
+
+if __name__ == "__main__":
+    timelim = 400 # this is in seconds
+    print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Jigs.csv",timelim))
+    print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Reels.csv",timelim))
+    print(getEditdistance("Note Networks/All Reels.csv", "Note Networks/All Jigs.csv",timelim))
+
