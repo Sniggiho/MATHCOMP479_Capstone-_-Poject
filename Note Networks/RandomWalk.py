@@ -84,5 +84,5 @@ def measuredRandomWalk(transFreqs, staringNote = "LA_4",  measureLen = 32, numMe
 # - phrase by phrase to create believable bagpipe structure?
 # - ways to bake in more structure via the network itself?
 if __name__ == "__main__":
-    tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All 4_4 Marches.csv"), staringNote="LA_4", measureLen=8, numMeasures=8, includeStartNote = True)
+    tune = measuredRandomWalk(generateTransFreqMap("Note Networks/All Jigs.csv"), staringNote="E_8", measureLen=24, numMeasures=4, includeStartNote = False)
     print(tune)

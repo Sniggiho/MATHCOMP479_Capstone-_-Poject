@@ -20,7 +20,7 @@ tune_info <- read_csv("~/MATHCOMP479/Project/TuneInfo.csv")
 full_info <- inner_join(tune_info, tune_stats, join_by(Name == name))
 
 
-full_info %>% group_by(Idiom) %>% summarise(mean(clustcoef))
+full_info %>% group_by(Idiom) %>% summarise(mean(clustcoef), n())
 full_info %>% filter(connected) %>% group_by(Idiom) %>% summarise(mean(diameter))
 full_info %>% filter(connected) %>% group_by(Idiom) %>% summarise(mean(avgpathlen))
 hist(sort(full_info$diameter[full_info$connected]))
