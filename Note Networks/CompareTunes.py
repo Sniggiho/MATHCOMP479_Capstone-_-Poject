@@ -1,5 +1,6 @@
 import networkx as nx
 import RandomWalk
+import TuneToNetwork
 
 def transFreqsToGraph(freqs):
     """Given a map with keys in format note1,note2 and values containing the number of transitions between those notes, creates a networkx edge network representing the graph"""
@@ -30,19 +31,25 @@ def getTuneNetworkStats(tune):
     """Given a tune title, returns a list containing various statistics about the graph:
 
         - clustering coefficient
+        - number of notes
+        - number of unique notes
+        - num edges
         - strongly connected?
         - diameter
         - avg path len
     """
     g = weightedGraphFromEdgeList("Note Networks/Indv Tune Networks/" + tune + ".csv")
     clustCoef = nx.average_clustering(g, weight='weight')
+    numNotes = len(TuneToNetwork.getNotesFromName(tune))
+    numUniqueNotes = g.order()
+    numEdges = g.size()
     connected = nx.is_strongly_connected(g)
     diameter = "NA"
     avgPathLen = "NA"
     if connected:
         diameter = nx.diameter(g)
         avgPathLen = nx.average_shortest_path_length(g)
-    return (clustCoef,connected, diameter, avgPathLen)
+    return (clustCoef,numNotes, numUniqueNotes, numEdges, connected, diameter, avgPathLen)
 
 def getIdiomStats(pathToEdgeListCsv):
     """Same as above, but for a given idiom. This one takes a file path to the csv edgelist of the graph.
@@ -89,7 +96,7 @@ def makeStatCsvs():
     # get stats for each one
 
     f = open("Note Networks/Tune Stats.csv", mode="w")
-    f.write("name,clustcoef,connected,diameter,avgpathlen\n")
+    f.write("name,clustcoef,numNotes,numUniqueNotes,numEdges,connected,diameter,avgpathlen\n")
     for t in tuneNames:
         stats = "\"" +  t + "\""
         for s in getTuneNetworkStats(t):
@@ -110,8 +117,14 @@ def makeStatCsvs():
 
 
 if __name__ == "__main__":
-    timelim = 400 # this is in seconds
-    print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Jigs.csv",timelim))
-    print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Reels.csv",timelim))
-    print(getEditdistance("Note Networks/All Reels.csv", "Note Networks/All Jigs.csv",timelim))
+    makeStatCsvs()
+        # timelim = 400 # this is in seconds
+    # print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Jigs.csv",timelim))
+    # print(getEditdistance("Note Networks/All 4_4 Marches.csv", "Note Networks/All Reels.csv",timelim))
+    # print(getEditdistance("Note Networks/All Reels.csv", "Note Networks/All Jigs.csv",timelim))
+    numCon = 0
+
+    
+
+
 
